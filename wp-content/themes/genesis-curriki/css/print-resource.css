@@ -1,0 +1,29 @@
+.button-link { display:none; }
+body { background:#fff !important; }
+.site-footer { background:#fff !important; display:none; }
+.resource-content-content { padding:0px  !important; }
+
+.grid_10 {
+    margin: 0px !important;
+}
+.sitehead {
+padding-top:20px;
+}
+.sitehead img{
+width:102px;
+}
+.page-header {
+    background: #ffffff none repeat scroll 0 0;
+    padding: 84px 0 0px;
+}
+.resource-info {
+    border-top: 1px solid #000000;
+    padding-bottom: 25px;
+    padding-top: 30px;
+}
+
+.resource-content-sidebar{ border:1px solid #F0CA43; padding:25px  !important; }
+
+p:empty {
+   display: none;
+}

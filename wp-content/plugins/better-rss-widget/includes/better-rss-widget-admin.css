@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/**
+ * better-rss-widget-admin.css - Stylesheet for the settings page.
+ *
+ * @package Better RSS Widget
+ * @subpackage templates
+ * @author GrandSlambert
+ * @copyright 2009-2012
+ * @access public
+ * @since 2.1
+*/
+
+label.primary {
+     text-align: right;
+     width: 200px;
+     display: block;
+     float: left;
+     font-weight: bold;
+     color: #666;
+}
+
+label.better-rss-widget-post-type {
+     width: 125px;
+     float: left;
+     font-size: 12px;
+}
+label.better-rss-widget-hide-word {
+     width: 100px;
+     float: left;
+}
+
+ul#better_rss_widget_tabs {
+     border-bottom:1px solid #A2B6CB;
+     font-family:Verdana,Arial;
+     font-size:12px;
+     font-weight:bold;
+     list-style-type:none;
+     margin-bottom:12px;
+     padding-bottom:28px;
+     z-index:1;
+}
+
+#better_rss_widget_tabs li {
+     background-color: #EBEBEB;
+     border: 1px solid #A2B6CB;
+     float: left;
+     height: 25px;
+     margin: 2px 0px 0px 5px;
+}
+
+#better_rss_widget_tabs li a {
+     color: #666;
+     display: block;
+     float: right;
+     padding: 5px;
+     text-decoration: none;
+}
+
+
+
+#better_rss_widget_tabs li.save-tab {
+     background-color: #666666;
+     font-weight: bold;
+}
+
+#better_rss_widget_tabs li.save-tab a {
+     color: #FFFFFF;
+}
+
+#better_rss_widget_tabs li.better-rss-widget-selected {
+     background-color: #A2B6CB;
+}
+
+#better_rss_widget_tabs li.better-rss-widget-selected a{
+     color: #fff;
+}
+
+.better-rss-widget-settings-table {
+     min-height: 350px;
+}
+
+#better_rss_widget_footer {
+     clear: both;
+     margin-top: 15px;
+}
+
+#better_rss_widget_footer div.postbox {
+     min-height: 150px;
+}
+
+.form-table tr {
+     border-bottom: solid 1px #ddd;
+     padding: 5px;
+}

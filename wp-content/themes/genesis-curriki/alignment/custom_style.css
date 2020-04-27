@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+#east ul, #east .well { margin:0; padding:0;}
+
+.clear { clear:both; height:1px;}
+.tree { background:#fff;}
+.tree, .tree li span, .tree li::before, .tree li::after { border-color:#d1d1d1}
+.nested_with_switch { margin:0; padding:0;}
+#selectStatements { max-width:65%; padding:5px; margin:0;}
+.cgcs .well { background:#fff; border:none;}
+.x-border-layout-ct { background:none;}
+.cgcs .x-panel-header-default { background:#a7a9ac; border-color:#a7a9ac; box-shadow: none;}
+.cgcs .x-panel-header-text-default { color:#fff;}
+.cgcs .x-panel-body-default, .cgcs .x-panel-default { border-color:#a7a9ac}
+#ext-gen1020 { margin-bottom:10px;} 
+.cgcs #ext-gen1049 { overflow-x: hidden !important;}
+.fancybox-close { background:url(fclose.png) !important}

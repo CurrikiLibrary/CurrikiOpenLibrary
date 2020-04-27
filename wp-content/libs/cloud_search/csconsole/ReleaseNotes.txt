@@ -1,0 +1,16 @@
+Amazon CloudSearch Command Line Tools 2.0.1.0 Release Notes
+
+This release removes the tools that are superseded by the AWS CLI and adds
+support for signing upload requests.  The standalone Amazon CloudSearch
+2013-01-01 CLTs now support two operations:
+
+- cs-configure-from-batches
+- cs-import-documents
+
+For all other operations, you should use the AWS CLI.  For more information,
+see the AWS CLI User Guide at:
+http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
+
+For more information about the Amazon CloudSearch 2013-01-01 API,
+see the developer guide at:
+http://docs.aws.amazon.com/cloudsearch/latest/developerguide/

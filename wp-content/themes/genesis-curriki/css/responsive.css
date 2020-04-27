@@ -1,0 +1,226 @@
+.grecaptcha-badge {
+	z-index: 2;
+}
+.footer-widgets-5 {
+	float: right;
+	left: auto;
+}
+footer .cookies-policy {
+	padding-left: 1%;
+	padding-right: 1%;
+}
+@media (min-width: 981px) and (max-width: 1025px) {
+	.menu .search-resources .search-input {
+		width: 335px;
+	}
+}
+@media (min-width: 981px) and (max-width: 1100px) {
+	.home-footer-2 {
+		padding-left: 40px;
+	}
+}
+@media (min-width: 641px) and (max-width: 980px) {
+	.footer-row .wrap {
+		background-size: contain;
+	}
+}
+@media (max-width: 660px) {
+	.title-area + .header-widget-area {
+		width: 65%;
+	}
+	.header-widget-area img {
+		/*height: 55px;*/
+                width: 130px;
+                height:auto;
+                margin-top:5px;
+	}
+	.header-widget-area .widget_text {
+		/*width: 30%;*/
+	}
+	.header-widget-area .widget_nav_menu {
+		/*width: 70%;*/
+	}
+	.header-widget-area .genesis-nav-menu li {
+		/*width: 33.333333%;*/
+	}
+	.header-widget-area .genesis-nav-menu a {
+		text-align: center;
+		padding-left: 2px !important;
+		padding-right: 2px !important;
+	}
+}
+@media (max-width: 480px) {
+    .header-widget-area img {
+        width: 85px;
+        height: auto;
+        margin-top: 15px;
+    }
+    .header-widget-area .widget{
+        float: none;
+        display: inline-block;
+    }
+    .header-widget-area{
+        text-align: right;
+    }
+}
+@media (max-width: 400px) {
+    .header-widget-area img {
+        width: 65px;
+        height: auto;
+        margin-top: 15px;
+    }
+    .header-widget-area{
+        float: right;
+        display: inline-block;
+    }
+    .genesis-nav-menu{
+        font-size:12px;
+    }
+    .header-image .site-title>a{
+        width: 45px !important;
+    }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+	.search-modal {
+		left: 10% !important;
+	}
+}
+@media (max-width: 640px) {
+	.home-footer-1 {
+		display: inline-block;
+	}
+	.footer-widgets-1, 
+	.footer-widgets-2, 
+	.footer-widgets-3, 
+	.footer-widgets-4, 
+	.footer-widgets-5 {
+		height: auto;
+	}
+	.footer-widgets-1, 
+	.footer-widgets-2 {
+		margin-top: 120px;
+	}
+	.footer-widgets-5 {
+		left: 0;
+	}
+}
+@media (max-width: 574px) {
+	.footer-widgets-1, 
+	.footer-widgets-2 {
+		margin-top: 160px;
+	}
+}
+@media (max-width: 480px) {
+	.title-area + .header-widget-area {
+		width: 70%;
+	}
+	.genesis-nav-menu a {
+		white-space: nowrap;
+	}
+}
+.standards-row {
+	height: auto;
+	min-height: 580px;
+}
+@media (max-width: 640px) {
+	.standards-row {
+		min-height: 0;
+	}
+}
+.side-tab {
+	position: absolute;
+	background: #f2f2f2;
+	padding: 10px 1200px 10px 15px;
+	width: 1600px;
+	margin-right: -1200px;
+	bottom: 80px;
+	right: 0;
+}
+.side-tab {
+	float: left;
+	position: relative;
+	margin: 0;
+	width: 100%;
+	max-width: 400px;
+	clear: both;
+	bottom: auto;
+	background: #f2f2f2;
+	z-index: 1;
+}
+@media (max-width: 980px) {
+	.side-tab {
+		max-width: 310px;
+	}
+}
+.side-tab.right {
+	padding: 10px 0px 10px 15px;
+	margin-top: 30px;
+	float: right;
+}
+.side-tab:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	border-radius: 8px;
+	background: #f2f2f2;
+	z-index: -1;
+	width: 1600px;
+}
+.side-tab.right:before {
+	left: 0;
+}
+.side-tab.left {
+	padding: 10px 15px 10px 0px;
+	background: #d6d6d6;
+	margin: 20px 0 0;
+}
+.side-tab.left:before {
+	background: #d6d6d6;
+	right: 0;
+}
+.search-dropdown .search-dropdown-icon {
+	color: #909296;
+    background: #f1f2f2;
+    border-color: #f1f2f2;
+	height: 46px;
+	background:#f1f2f2 url(../curriki-customized/css/images/downarrow.png) no-repeat left;
+	padding-left: 12px;
+}
+@media (min-width: 981px) and (max-width: 1090px) {
+	.menu .search-resources .search-input {
+		width: 265px;
+	}
+}
+@media (max-width: 980px) {
+	.menu .search-dropdown .search-dropdown-icon {
+		width: 200px;
+	}
+}
+.menu .search-dropdown .search-dropdown-icon {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.menu .search-dropdown .search-dropdown-icon {
+	height: 30px;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+@media screen and (max-width: 980px) {
+	.responsive-menu-button {
+		color: #99c736;
+		margin: 5px 0 5px 20px;
+		font-size: 50px !important;
+	}
+}
+@media screen and (max-width: 480px) {
+	.responsive-menu-button {
+		color: #99c736;
+		margin: 15px 0 15px 5px;
+		font-size: 30px !important;
+	}
+}

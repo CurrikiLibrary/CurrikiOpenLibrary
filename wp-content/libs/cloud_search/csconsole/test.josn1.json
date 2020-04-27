@@ -1,0 +1,17 @@
+[ {
+  "type" : "add",
+  "id" : "/home/furqan/www/curriki_svn/trunk/cloud_search/test.csv_1",
+  "fields" : {
+    "test2" : "3",
+    "abc" : "1",
+    "test" : "2"
+  }
+}, {
+  "type" : "add",
+  "id" : "/home/furqan/www/curriki_svn/trunk/cloud_search/test.csv_2",
+  "fields" : {
+    "test2" : "6",
+    "abc" : "4",
+    "test" : "5"
+  }
+} ]

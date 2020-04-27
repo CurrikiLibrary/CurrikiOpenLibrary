@@ -1,0 +1,188 @@
+.asset-content-body {
+	padding: 10px;
+	margin: 0px;
+}
+
+.asset-display-download, .asset-display-text {
+	margin: 0 10px 0 40px;
+}
+
+
+/* IMAGE FLOATS AND ALIGNS */
+
+.imgfloatright{
+  float:right;
+  margin-left: 8px;
+}
+
+.imgcenter	{ text-align: center; }
+.imgleft		{ text-align: left; }
+.imgright		{ text-align: right; }
+
+/* END IMAGE FLOATS AND ALIGNS */
+
+
+
+/* WIKI TABLE */
+/* special formatting of a wiki table */
+.wiki-table {
+    margin: 20px auto;
+    empty-cells: show;
+    width: 80%;
+    font-size:100%;
+    text-align:left;
+    border: 20px solid #E5F0FE !important;
+    background-color: #E5F0FE;
+}
+
+.wiki-table td {
+    padding: 8px;
+    text-align:left;
+}
+
+.wiki-table th {
+    border-width: 0px;
+    border-style: inset;
+    text-align: left;
+    font-weight: 100;
+    font-size: 160%;
+    padding: 8px;
+    background-color: #E5F0FE;
+}
+
+.wiki-table .table-head td{
+    font-weight: 100 !important;
+    font-size: 160% !important;
+
+}
+
+.wiki-table .table-odd {
+    background-color: #fff;
+}
+
+.wiki-table .table-even {
+}
+/* END WIKI TABLE */
+
+
+
+/* SUB ASSET WRAPPER PARENT DIV */
+.sub-asset-wrapper {
+	background: #fff;
+ 	border: 1px solid #f5bd80;
+	margin: 0 0 8px 0; 
+	width: auto;
+}
+.category-text .asset-display-text {
+	margin-left: 10px;
+}
+
+
+
+
+/* icon links */
+a.icon-link + .text-link a {
+	position: relative;
+}
+a.icon-link + .text-link a:before {
+	position: relative;
+	font-family: "FontAwesome";
+	content: '';
+	margin-right: 2px;
+}
+
+.filetype-doc a.icon-link + .text-link a:before {
+	content: '\f15c';
+}
+
+
+
+a.icon-mini {
+	position: relative;
+	border: 0;
+	display: block;
+	float: left;
+	height: 17px;
+	width: 17px;
+	color: rgba(0,0,0,0);
+	background-image: none !important;
+}
+
+a.icon-mini:before {
+	position: relative;
+	top: 0px;
+	left: 5px;
+	width: .8em;
+	font-family: "FontAwesome";
+	font-size: 16px;
+	display: block;
+	z-index: 1;
+	color: #393938;
+	text-indent: 0px !important;
+}
+
+/* UPDATED FONTAWESOME ICONS */
+.filetype-unknown a.icon-link:before 			{ content: '\f15b'; }
+.category-image a.icon-mini:before 				{ content: '\f1c5'; }
+.category-document a.icon-mini:before 		{ content: '\f15c'; }
+.filetype-unknown a.icon-mini:before 			{ content: '\f15b'; }
+.category-text a.icon-mini:before 				{ content: '\f15c'; }
+.category-archive a.icon-mini:before 			{ content: '\f187'; }
+.category-external a.icon-mini:before 		{ content: '\f08e'; }
+.category-audio a.icon-mini:before 				{ content: '\f1c7'; }
+.category-video a.icon-mini:before 				{ content: '\f1c8'; }
+.category-interactive a.icon-mini:before	{ content: '\f085'; }
+.category-folder a.icon-mini:before				{ content: '\f07c'; }
+
+/* ORIGINAL SPRITE LOCATION CODE */
+.filetype-unknown a.icon-link { background-position: 0 -4770px; }
+.category-image a.icon-mini { background-position: 0 -3870px; }
+.category-document a.icon-mini { background-position: 0 -3780px; }
+.filetype-unknown a.icon-mini { background-position: 0 -4410; }
+.category-text a.icon-mini { background-position: 0 -4500px; }
+.category-archive a.icon-mini { background-position: 0 -4140px; }
+.category-external a.icon-mini { background-position: 0 -4320px; }
+.category-audio a.icon-mini { background-position: 0 -4230px; }
+.category-video a.icon-mini { background-position: 0 -4050px; }
+.category-interactive a.icon-mini { background-position: 0 -3960px; }
+
+
+code {
+  font-family: "Bitstream Vera Sans Mono", "Courier New", Monaco, Courier, monospace;  /* [3] */
+  overflow: auto;
+  background-color: #EEE;
+  border: 1px solid #DDD;
+  padding: 4px;
+}
+
+.box { margin: 0.5em; }
+
+
+/** TOOLTIP - WORKS FOR IMAGE AND SPAN USE OF THE "TOOLTIP" CLASS **/
+img.tooltip {
+	height: 16px;
+	width: 16px;
+	margin:0 0 -3px 5px;
+	background-image: url('../images/fa_i.png');
+	background-position: 0 0;
+	background-size: cover;
+}
+
+span.tooltip {
+	position: relative;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	vertical-align: top;
+}
+span.tooltip:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: "FontAwesome";
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 16px;
+	content: '\f05a';
+	color: #124d72;
+}

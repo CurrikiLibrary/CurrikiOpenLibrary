@@ -1,0 +1,338 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://www.buddyboss.com/contact/\n"
+"POT-Creation-Date: 2018-05-31 13:21:00+00:00\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: BuddyBoss <support@buddyboss.com>\n"
+"Language-Team: BuddyBoss <support@buddyboss.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: includes/ActivityExport.php:23
+msgid "Activities"
+msgstr ""
+
+#: includes/ActivityExport.php:42
+msgid "Activities & Activity Comments"
+msgstr ""
+
+#: includes/ActivityExport.php:45
+msgid "Profile Update"
+msgstr ""
+
+#: includes/ActivityExport.php:48
+msgid "Group Update"
+msgstr ""
+
+#: includes/ActivityExport.php:51
+msgid "Comment"
+msgstr ""
+
+#: includes/ActivityExport.php:60
+msgid "Activity Action"
+msgstr ""
+
+#: includes/ActivityExport.php:61
+msgid "Activity Content"
+msgstr ""
+
+#: includes/ActivityExport.php:62 includes/GroupExport.php:81
+#: includes/MessageExport.php:70
+msgid "Created Date (GMT)"
+msgstr ""
+
+#: includes/ActivityExport.php:63
+msgid "Activity Type"
+msgstr ""
+
+#: includes/ActivityExport.php:64
+msgid "Activity URL"
+msgstr ""
+
+#: includes/Admin.php:162 includes/Admin.php:163
+msgid "BuddyPress GDPR"
+msgstr ""
+
+#: includes/Admin.php:178
+msgid "Settings updated."
+msgstr ""
+
+#: includes/Admin.php:187
+msgid "Save Changes"
+msgstr ""
+
+#: includes/Admin.php:201
+msgid "General Settings"
+msgstr ""
+
+#: includes/Admin.php:206
+msgid "Export Page Title"
+msgstr ""
+
+#: includes/Admin.php:210
+msgid "Export Page Content"
+msgstr ""
+
+#: includes/Admin.php:214
+msgid "Export Page Button Text"
+msgstr ""
+
+#: includes/FriendshipExport.php:24
+msgid "Friendship"
+msgstr ""
+
+#: includes/FriendshipExport.php:44
+msgid "Friends"
+msgstr ""
+
+#: includes/FriendshipExport.php:57
+msgid "Pending Sent Friend Requests"
+msgstr ""
+
+#: includes/FriendshipExport.php:62
+msgid "Pending Received Friend Requests"
+msgstr ""
+
+#: includes/FriendshipExport.php:68
+msgid "Friend Name"
+msgstr ""
+
+#: includes/FriendshipExport.php:69
+msgid "Sent Created (GMT)"
+msgstr ""
+
+#: includes/FriendshipExport.php:73 includes/NotificationExport.php:53
+#: includes/SettingsExport.php:58
+msgid "Yes"
+msgstr ""
+
+#: includes/FriendshipExport.php:73 includes/NotificationExport.php:51
+#: includes/SettingsExport.php:63
+msgid "No"
+msgstr ""
+
+#: includes/FriendshipExport.php:74
+msgid "Request Initiator"
+msgstr ""
+
+#: includes/GroupExport.php:23 includes/GroupExport.php:43
+msgid "Groups"
+msgstr ""
+
+#: includes/GroupExport.php:69 includes/GroupExport.php:72
+#: includes/XprofileExport.php:61 includes/XprofileExport.php:64
+#: includes/XprofileExport.php:95
+msgid "N/A"
+msgstr ""
+
+#: includes/GroupExport.php:78 includes/GroupMembershipExport.php:72
+msgid "Group Name"
+msgstr ""
+
+#: includes/GroupExport.php:79
+msgid "Group Description"
+msgstr ""
+
+#: includes/GroupExport.php:80
+msgid "Group slug"
+msgstr ""
+
+#: includes/GroupExport.php:82
+msgid "Group Status"
+msgstr ""
+
+#: includes/GroupExport.php:83
+msgid "Group Avatar"
+msgstr ""
+
+#: includes/GroupExport.php:84
+msgid "Group Cover Image"
+msgstr ""
+
+#: includes/GroupExport.php:85 includes/GroupMembershipExport.php:74
+msgid "Group URL"
+msgstr ""
+
+#: includes/GroupExport.php:89
+msgid "Total Members"
+msgstr ""
+
+#: includes/GroupExport.php:90
+msgid "Last Activity"
+msgstr ""
+
+#: includes/GroupMembershipExport.php:23
+msgid "Group Memberships"
+msgstr ""
+
+#: includes/GroupMembershipExport.php:45 includes/GroupMembershipExport.php:65
+msgid "Group Membership"
+msgstr ""
+
+#: includes/GroupMembershipExport.php:53
+msgid "Group Pending Requests"
+msgstr ""
+
+#: includes/GroupMembershipExport.php:57
+msgid "Group Pending Received Invitation Requests"
+msgstr ""
+
+#: includes/GroupMembershipExport.php:61
+msgid "Group Pending Sent Invitation Requests"
+msgstr ""
+
+#: includes/GroupMembershipExport.php:73
+msgid "Sent Date (GMT)"
+msgstr ""
+
+#: includes/GroupMembershipExport.php:79
+msgid "Sent by"
+msgstr ""
+
+#: includes/GroupMembershipExport.php:84
+msgid "Sent to"
+msgstr ""
+
+#: includes/GroupMembershipExport.php:88
+msgid "Group Comments"
+msgstr ""
+
+#: includes/MessageExport.php:24
+msgid "Private Messages"
+msgstr ""
+
+#: includes/MessageExport.php:43
+msgid "Message Threads & Replies"
+msgstr ""
+
+#: includes/MessageExport.php:68
+msgid "Message Subject"
+msgstr ""
+
+#: includes/MessageExport.php:69
+msgid "Message Content"
+msgstr ""
+
+#: includes/MessageExport.php:71
+msgid "Message Recipients"
+msgstr ""
+
+#: includes/MessageExport.php:72
+msgid "Thread URL"
+msgstr ""
+
+#: includes/NotificationExport.php:23 includes/NotificationExport.php:42
+msgid "Notifications"
+msgstr ""
+
+#: includes/NotificationExport.php:57
+msgid "Notification Action"
+msgstr ""
+
+#: includes/NotificationExport.php:58
+msgid "Notified Date (GMT)"
+msgstr ""
+
+#: includes/NotificationExport.php:59
+msgid "Mark as Read"
+msgstr ""
+
+#: includes/SettingsExport.php:23 includes/SettingsExport.php:40
+msgid "Settings"
+msgstr ""
+
+#: includes/SettingsExport.php:60
+msgid "Yes (Default)"
+msgstr ""
+
+#: includes/SettingsExport.php:74
+msgid "Notifications Settings"
+msgstr ""
+
+#: includes/SettingsExport.php:114
+msgid "A member sends you a friendship request"
+msgstr ""
+
+#: includes/SettingsExport.php:115
+msgid "A member accepts your friendship request"
+msgstr ""
+
+#: includes/SettingsExport.php:118
+msgid "A member invites you to join a group"
+msgstr ""
+
+#: includes/SettingsExport.php:119
+msgid "Group information is updated"
+msgstr ""
+
+#: includes/SettingsExport.php:120
+msgid "You are promoted to a group administrator or moderator"
+msgstr ""
+
+#: includes/SettingsExport.php:121
+msgid "A member requests to join a private group for which you are an admin"
+msgstr ""
+
+#: includes/SettingsExport.php:122
+msgid "Your request to join a group has been approved or denied"
+msgstr ""
+
+#: includes/SettingsExport.php:125
+msgid "A member mentions you in an update using \"@username\""
+msgstr ""
+
+#: includes/SettingsExport.php:126
+msgid "A member replies to an update or comment you've posted"
+msgstr ""
+
+#: includes/SettingsExport.php:129
+msgid "A member sends you a new message\t"
+msgstr ""
+
+#: includes/UserSettings.php:53 includes/UserSettings.php:70
+msgid "Export Data"
+msgstr ""
+
+#: includes/UserSettings.php:81
+msgid "Sorry something went wrong please try again."
+msgstr ""
+
+#: includes/UserSettings.php:95
+msgid "Unable to initiate confirmation request."
+msgstr ""
+
+#: includes/UserSettings.php:101
+msgid "Confirmation request initiated successfully."
+msgstr ""
+
+#: includes/XprofileExport.php:23
+msgid "User Profile Information"
+msgstr ""
+
+#: includes/XprofileExport.php:67
+msgid "Avatar"
+msgstr ""
+
+#: includes/XprofileExport.php:68
+msgid "Cover Image"
+msgstr ""
+
+#: includes/XprofileExport.php:72
+msgid "User Profile - Avatar & Cover Photos"
+msgstr ""

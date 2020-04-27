@@ -1,0 +1,334 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Landing Pages\n"
+"POT-Creation-Date: 2017-06-21 16:09+0500\n"
+"PO-Revision-Date: 2017-06-21 16:09+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp_landing_pages.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: llp_create_template.php:12
+msgid "Customized"
+msgstr ""
+
+#: llp_create_template.php:14
+msgid "Content"
+msgstr ""
+
+#: llp_get_templates.php:7
+msgid "Select Landing Page Template"
+msgstr ""
+
+#: llp_get_templates.php:8
+msgid "Upgrade to Pro & Get 30 premium Landing page designs"
+msgstr ""
+
+#: llp_get_templates.php:25
+msgid "By "
+msgstr ""
+
+#: llp_get_templates.php:27
+msgid "Use this template"
+msgstr ""
+
+#: llp_home.php:1 wp_landing_pages.php:118
+msgid "Home"
+msgstr ""
+
+#: llp_home.php:2
+msgid ""
+"Thank you for choosing WP Landing Pages plugin. If you have any support "
+"query or your feedback, please feel free to send an email to "
+msgstr ""
+
+#: llp_home.php:4
+msgid "Quick Tutorial"
+msgstr ""
+
+#: llp_home.php:6
+msgid ""
+"To create new landing page, go to WPLP > Create Landing Page. Click Use this "
+"template button under any template you like"
+msgstr ""
+
+#: llp_home.php:7
+msgid ""
+"Next page will open. On your left side, enter page name first and submit. "
+"This will save the page in your Wordpress site. You can then customize the "
+"page"
+msgstr ""
+
+#: llp_home.php:8
+msgid ""
+"If you wish to edit an existing created template/page. Go to your WP-Admin > "
+"Landing Pages. Click on the Edit Template in Design View button under the "
+"page title on mouse hover."
+msgstr ""
+
+#: llp_home.php:9
+msgid "Or you can also click on Edit in Design View under landing page title"
+msgstr ""
+
+#: llp_home.php:11
+msgid ""
+"Stay updated and get more customized feature updates directly to your inbox"
+msgstr ""
+
+#: llp_home.php:22
+msgid ""
+"We promise, your email address will not be shared or spammed ever. Leave "
+"your email below"
+msgstr ""
+
+#: llp_home.php:23
+msgid "email address"
+msgstr ""
+
+#: llp_home.php:26
+msgid "Join"
+msgstr ""
+
+#: llp_home.php:29
+msgid "Quick Tutorial - Connect WP Landing Pages with MailChimp Auto Responder"
+msgstr ""
+
+#: llp_home.php:31
+msgid "Go pro - Upgrade to WP Landing Pages Pro"
+msgstr ""
+
+#: llp_home.php:32
+msgid ""
+"WP Landing Pages Pro comes with up to 30 fresh and premium landing page "
+"designs. Pro version is also updated frequently with new premium landing "
+"page designs."
+msgstr ""
+
+#: llp_tpl/customized_bar.php:23
+msgid "Create page"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:36
+msgid "View Live Page"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:48
+msgid "Link"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:52
+msgid "Optin Form"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:56
+msgid "link"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:60
+msgid "Open in new window"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:70 llp_tpl/customized_bar.php:91
+msgid "Image URL"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:74 llp_tpl/customized_bar.php:95
+msgid "Upload Image"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:78 llp_tpl/customized_bar.php:99
+msgid "Click here to upload image"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:86
+msgid "Image Link"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:108
+msgid "Select Menu"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:149
+msgid "Autoresponder Code"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:152
+msgid ""
+"Copy your form code from your autoresponder provider and paste it in the box "
+"below. Ensure you are using the non-javascript code, and paste ALL HTML code "
+"your autoresponder company gives you into this box"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:169
+msgid "Field Label"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:189
+msgid "Form URL"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:196
+msgid "Hidden Fields"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:203
+msgid "Submit Button Label"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:222
+msgid "Preview"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:224
+msgid "Reset"
+msgstr ""
+
+#: llp_tpl/customized_bar.php:226
+msgid "Save"
+msgstr ""
+
+#: wp_landing_pages.php:75
+msgid ""
+"The WP Landing Pages Pro plugin installed a templates table in the previous "
+"versions. That table is no longer required. Do you want me to go ahead and "
+"remove it?"
+msgstr ""
+
+#: wp_landing_pages.php:76
+msgid "Yes"
+msgstr ""
+
+#: wp_landing_pages.php:88
+msgid "The table has been removed successfully"
+msgstr ""
+
+#: wp_landing_pages.php:118
+msgid " Configuration"
+msgstr ""
+
+#: wp_landing_pages.php:119
+msgid "Templates"
+msgstr ""
+
+#: wp_landing_pages.php:119
+msgid "Create Landing Page"
+msgstr ""
+
+#: wp_landing_pages.php:264 wp_landing_pages.php:266
+msgid "Edit in Design View"
+msgstr ""
+
+#: wp_landing_pages.php:276 wp_landing_pages.php:277 wp_landing_pages.php:287
+msgid "Landing Pages"
+msgstr ""
+
+#: wp_landing_pages.php:278
+msgid "Add New"
+msgstr ""
+
+#: wp_landing_pages.php:279
+msgid "Add New Landing Page"
+msgstr ""
+
+#: wp_landing_pages.php:280
+msgid "Edit Landing Page"
+msgstr ""
+
+#: wp_landing_pages.php:281
+msgid "New Landing Page"
+msgstr ""
+
+#: wp_landing_pages.php:282
+msgid "All Landing Pages"
+msgstr ""
+
+#: wp_landing_pages.php:283
+msgid "View Landing Page"
+msgstr ""
+
+#: wp_landing_pages.php:284
+msgid "Search Landing Pages"
+msgstr ""
+
+#: wp_landing_pages.php:285
+msgid "No landing pages found"
+msgstr ""
+
+#: wp_landing_pages.php:286
+msgid "No landing pages found in Trash"
+msgstr ""
+
+#: wp_landing_pages.php:379 wp_landing_pages.php:393
+msgid "Screenshot"
+msgstr ""
+
+#: wp_landing_pages.php:380
+msgid "Title"
+msgstr ""
+
+#: wp_landing_pages.php:381
+msgid "Date"
+msgstr ""
+
+#: wp_landing_pages.php:382 wp_landing_pages.php:392
+msgid "Total Visits"
+msgstr ""
+
+#: wp_landing_pages.php:407
+msgid "Unable to get visits"
+msgstr ""
+
+#: wp_landing_pages.php:539
+msgid "Duplicate"
+msgstr ""
+
+#: wp_landing_pages.php:562
+msgid "Custom Code"
+msgstr ""
+
+#: wp_landing_pages.php:661
+msgid "Your information will *never* be shared or sold to 3rd party"
+msgstr ""
+
+#: wp_landing_pages.php:732
+msgid "Signup Now!"
+msgstr ""
+
+#: wp_landing_pages.php:771
+msgid "Click Here for Instant Access"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Landing Pages"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.intensewp.com/wp-landing-pages/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create Unlimited Beautiful Landing Pages in WordPress. Opt-in Forms, "
+"Customize Text, Upload photos, Embed videos."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Intense WP"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.intensewp.com/"
+msgstr ""

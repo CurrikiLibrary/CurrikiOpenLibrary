@@ -1,0 +1,283 @@
+.library-rating {
+    width: 146px !important;
+}
+
+.modal-dialog {
+	height: auto;
+	color: #000;
+}
+
+@media (min-width: 992px) {
+	.modal-dialog {
+		width: 770px;
+	}
+}
+
+.modal-wrap {
+	margin: 8px;
+	border: 2px solid #8ba4e4;
+	border-radius: 6px;
+	padding: 15px 15px 15px 15px;
+}
+
+@media (min-width: 768px) {
+	.modal-wrap {
+		padding: 20px 30px 20px 45px;
+	}
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.modal-header {
+	position: relative;
+	padding-right: 50px;
+	margin-bottom: 10px;
+	border-bottom: 0;
+}
+
+.modal-secondary .close {
+	position: absolute;
+    top: 22px;
+    right: 0;
+    padding: 0;
+	margin: 0;
+    border: 0;
+	background-color: transparent;
+    border-radius: 0;
+    color: #5f78bb;
+	text-align: left;
+	text-indent: -9999px;
+	width: 26px;
+	height: 26px;
+	background-image: url(images/close.png);
+	background-repeat: no-repeat;
+	transition: none;
+	outline: 0;
+}
+
+.modal-secondary .close:hover,
+.modal-secondary .close:focus {
+	background-color: transparent;
+	background-position: 0 -26px;
+}
+
+.modal-secondary .modal-title {
+	color: #003d90;
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-align: left;
+}
+
+.modal-footer {
+	text-align: left;
+}
+
+.modal-secondary a {
+	color: #24b6f7;
+}
+
+.modal-secondary p {
+	font-size: inherit;
+	line-height: normal;
+	color: inherit;
+}
+
+.modal-secondary img {
+	margin: 0;
+    border-radius: 0;
+    width: auto;
+    height: auto;
+}
+
+.modal-header.border-bottom {
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.section-title {
+    font-size: 20px;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.section-title:after {
+    content: "";
+    position: relative;
+    border-top: 1px solid #f1f1f1;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+	-webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+.modal-secondary .ui-sortable {
+	overflow-y: auto;
+	max-height: 500px;
+}
+
+.media-secondary {
+    margin-bottom: 10px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.media-secondary {
+    display: -webkit-box;
+	display: -ms-flexbox;
+    display: flex;
+	-webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 767.98px) {
+	.media-secondary {
+		display: block;
+	}
+}
+
+.media-thumbnail {
+    background-color: #f1f1f1;
+    padding: 9px;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    max-width: 54px;
+}
+
+.media-secondary .media-body {
+    -webkit-box-flex: 1;
+	-ms-flex: 1;
+    flex: 1;
+    font-size: 14px;
+    color: #7a7a7a;
+	width: auto;
+}
+
+.media-title {
+    color: #24b6f7;
+    font-weight: 700;
+}
+
+.media-body a {
+	color: #24b6f7;
+}
+
+@media (min-width: 768px) {
+	.action-buttons {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+.align-self-center {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.modal-secondary .btn-remove {
+    color: #f52525;
+    font-size: 22px;
+}
+
+@media (min-width: 768px) {
+	.buttonpane .buttons-left {
+		float: left;
+	}
+	
+	.buttonpane .buttons-right {
+		float: right;
+	}
+}
+
+.buttonpane .btn {
+	font-size: 14px;
+	margin: 0 0 10px;
+}
+
+.buttonpane .buttons .btn {
+	margin-right: 15px;
+}
+
+.buttonpane-margin-right .btn {
+	margin-right: 6px;
+}
+
+.buttonpane .btn {
+	color: #fff;
+	font-weight: 700;
+	padding: 10px 16px;
+	background-color: #21a8e4;
+	border: 1px solid #21a8e4;
+	border-radius: 4px;
+	width: auto;
+	height: auto;
+}
+
+.buttonpane .btn:hover,
+.buttonpane .btn:focus {
+	color: #fff;
+	background-color: #089de0;
+	border-color: #089de0;
+}
+
+.buttonpane .btn-outline {
+	color: #21a8e4;
+	background-color: transparent;
+}
+
+.buttonpane .btn-outline:hover,
+.buttonpane .btn-outline:focus {
+	color: #21a8e4;
+	background-color: #f6f7fc;
+	border-color: #089de0;
+}
+
+.pb-40 {
+	padding-bottom: 30px;
+}
+
+.pt-50 {
+	padding-top: 50px;
+}
+
+.py-50 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.py-60 {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.pt-60 {
+	padding-top: 60px;
+}
+
+.pb-60 {
+	padding-bottom: 60px;
+}
+
+.pb-50 {
+	padding-bottom: 50px;
+}
+
+.pt-10 {
+	padding-top: 10px;
+}

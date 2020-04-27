@@ -1,0 +1,113 @@
+NAME
+       cs-configure-analysis-scheme
+
+DESCRIPTION
+       Defines a named set of language-specific text analysis options that
+       can be used for any text or text-array field. For more information,
+       see the developer guide topic "Configuring Text Analysis Schemes
+       for Amazon CloudSearch." You can also use cs-configure-analysis-scheme
+       to display the analysis schemes configured for a domain and delete
+       analysis schemes.
+
+SYNOPSIS
+       cs-configure-analysis-schemes [--name STRING]
+           [--lang STRING]
+           [--stopwords FILE|S3_URI]
+           [--synonyms FILE|S3_URI]
+           [--stemdict FILE|S3_URI]
+           [--stem-algo none|minimal|light|full]
+           [--list]
+           [--delete]
+           COMMON_OPTIONS
+
+COMMON OPTIONS
+       -a, --access-key STRING
+           Your AWS access key ID. Used in conjunction with --secret-key.
+           Required if you do not use an AWS credential file.
+
+       -c, --aws-credential-file FILE
+           The path to the file that contains your AWS access key ID and
+           secret access key. Required if you have not set the
+           AWS_CREDENTIAL_FILE environment variable or explicitly set your
+           credentials with --access-key and --secret-key.
+
+       -d, --domain-name STRING
+           The name of the domain that you are querying or configuring.
+           Required.
+
+       -e,  --endpoint URL
+            The endpoint for the Amazon CloudSearch Configuration Service.
+            Defaults to the CS_ENDPOINT environment variable or
+            cloudsearch.us-east-1.amazonaws.com if the environment variable
+            is not set. Optional.
+
+       -h, --help
+           Display this help message. Optional.
+
+       -k, --secret-key STRING
+           Your AWS secret access key. Used in conjunction with --access-key.
+           Required if you do not use an AWS credential file.
+
+       -ve, --verbose
+           Display verbose log messages. Optional.
+
+       -v, --version
+           Display the version number of the command line tools. Optional.
+
+ANALYSIS OPTIONS
+       --name STRING
+           The name of the analysis scheme you are configuring, displaying,
+           or deleting. Required unless you specify --list to display
+           all configured analysis schemes.
+
+       --lang STRING
+           The language of the text to be processed. See the developer
+           guide topic "Supported Languages in Amazon CloudSearch" for
+           a list of valid language codes. Required if you are configuring
+           an analysis scheme.
+
+       --stem-algo none|minimal|light|full
+           The stemming algorithm to use for this analysis scheme.
+           Optional.
+
+       --list
+           Display the options configured for the analysis scheme
+           specified with the --name option. If no scheme is specified,
+           lists all of the analysis schemes configured for the domain.
+           Optional.
+
+       --delete
+           Delete the analysis scheme specified with the --name option.
+           Optional.
+
+       --stemdict FILE|S3_URI
+           The path to a file or an S3 URI that contains the stemming
+           dictionary for this analysis scheme. The stemming dictionary
+           is specified as a JSON object that contains one or more
+           name/value pairs: {"people": "person", "walking": "walk"}.
+           The stemming dictionary is used in conjunction with algorithmic
+           stemming, with the stems in the dictionary taking precedence.
+           Optional.
+
+       --stopwords FILE|S3_URI
+           The path to a file or an S3 URI that contains the stopwords
+           dictionary for this analysis scheme. The stopwords dictionary is
+           specified as a JSON array: ["a", "an", "the", "of"]. Optional.
+
+       --synonyms FILE|S3_URI
+           The path to a file or an S3 URI that contains the synonyms
+           dictionary for this analysis scheme. The synonyms dictionary is
+           specified as a JSON map of aliases and groups: {"groups":
+           [["1st", "first", "one"], ["2nd", "second", "two"]],
+           "aliases": { "child": ["kid", "youngster"]}}. For more
+           information about groups and aliases, see the developer guide
+           topic "Configuring Synonyms in Amazon CloudSearch." Optional.
+
+EXAMPLE
+       cs-configure-analysis-scheme -d mydomain
+           --name my_scheme
+           --lang en
+           --stemdict /home/mystems.txt
+           --stopwords /home/mystopwords.txt
+           --synonyms /home/mysynonyms.txt
+           COMMON_OPTIONS

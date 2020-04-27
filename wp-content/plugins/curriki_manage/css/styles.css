@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2016, 6:27:02 PM
+    Author     : alimehdi
+*/
+
+body{
+    background: none !important;
+}
+.hierarchial_children_container{
+    margin-top: 25px;
+}
+.resource_comments_container{
+    margin-top: 25px;
+}
+.padding-0{
+    padding:0 !important
+}
+.button {
+    display: inline-block !important;
+    text-align: center !important;
+    line-height: 1 !important;
+    cursor: pointer !important;
+    -webkit-appearance: none !important;
+    transition: background-color .25s ease-out,color .25s ease-out  !important;
+    vertical-align: middle !important;
+    border: 1px solid transparent !important;
+    border-radius: 0 !important;
+    padding: .85em 1em !important;
+    margin: 0 0 1rem !important;
+    font-size: .9rem !important;
+    background-color: #2199e8 !important;
+    color: #fefefe !important;
+    box-shadow:none !important;
+    height: 38px !important;
+}
+
+ol ol, ol ul, ul ol, ul ul {
+     margin-left: 0rem !important; 
+     margin-bottom: 0 !important; 
+}
+
+li.active a{
+    background: #2199e8 !important;
+    color: #fff;
+}
+.text-uppercase{
+    text-transform: uppercase !important;
+}
+
+.pagination{
+    text-align: center;
+}
+.pagination>ul {
+    display: inline-block !important;
+    padding-left: 0 !important;
+    margin: 20px 0 !important;
+    border-radius: 4px !important;
+}
+.pagination>ul>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0 !important;
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.pagination>ul>li:last-child>a, .pagination>li:last-child>span {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.pagination>ul>li>a, .pagination>li>span {
+    position: relative !important;
+    float: left !important;
+    padding: 6px 12px !important;
+    margin-left: -1px !important;
+    line-height: 1.42857143 !important;
+    color: #337ab7 !important;
+    text-decoration: none !important;
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+}
+.pagination .disabled{
+    padding:0 !important;
+}
+.pagination>ul>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3 !important;
+    color: #fff !important;
+    cursor: default !important;
+    background-color: #337ab7 !important;
+    border-color: #337ab7 !important;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert-success .alert-link {
+    color: #2b542c;
+}
+.alert p{
+    margin-bottom: 0 !important;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}

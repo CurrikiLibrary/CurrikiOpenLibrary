@@ -1,0 +1,13 @@
+{
+    "name": "curriki/curriki-recommender",
+    "description": "Curriki Recommendation Engine",
+    "authors": [
+        {
+            "name": "Waqar Muneer",
+            "email": "waqarmuneer@gmail.com"
+        }
+    ],    
+    "autoload": {
+        "psr-4": {"CurrikiRecommender\\": "src/"}
+    }
+}

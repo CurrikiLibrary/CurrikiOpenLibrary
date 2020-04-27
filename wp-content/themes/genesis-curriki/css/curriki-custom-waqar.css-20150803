@@ -1,0 +1,970 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 2, 2015, 4:31:16 PM
+    Author     : Waqar Muneer
+*/
+
+.dashboard .dashboard-activity-feed ul#activity-stream
+{
+    background: none repeat scroll 0 0 #ffffff !important;
+    overflow: hidden !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+}
+.dashboard .dashboard-activity-feed ul#activity-stream li
+{    
+    overflow: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.dashboard .dashboard-activity-feed ul#activity-stream li .activity-meta
+{
+    display: none;
+}
+
+.dashboard .dashboard-activity-feed ul#activity-stream li .group-activity-time
+{
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.dashboard .dashboard-activity-feed ul#activity-stream li img.photo
+{
+    max-width: 100% !important;
+}
+.view-more{
+    display: none !important;
+}
+
+.page-template-page-group .create-group-button{
+    line-height: 1 !important;
+    font-size: 0.88em !important;
+}
+.page-template-page-group .search-dropdown input#groups_search_submit{
+    padding: 8px !important;
+}
+.group-home ul#activity-stream li .activity-meta {
+    display: none !important;
+}
+
+.group-home ul#activity-stream li.page-activity-card {
+    margin-bottom: 0px !important;
+}
+
+.group-home ul#activity-stream li.page-activity-card .group-activity-member a {
+    padding: 0px !important;
+}
+
+.group-home .group-header .ui-accordion ul.info ul#subject_list_container li{ 
+    display: inherit !important;
+}
+.group-home .group-header .ui-accordion ul.info ul#educationlevel_list_container li{ 
+    display: inherit !important;
+}
+
+body.group-create,body.directory
+{
+    background-color: #f1f1f1 !important;
+}
+
+body.group-create #group-create-tabs .ui-tabs-nav {
+    float: right !important;    
+}
+
+
+body.group-create #group-create-tabs .ui-tabs-nav li.current {
+    background: none repeat scroll 0 0 #ffffff !important;
+    border: 1px solid #99c736 !important;
+    margin-bottom: 0 !important;
+}
+
+body.group-create #group-create-tabs .ui-tabs-nav li {
+    background: none repeat scroll 0 0 #99c736;
+    border: 1px solid #99c736;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0 0 0 2px;
+    padding: 0;
+    width: auto;
+    line-height: 0.8em !important;
+}
+
+body.group-create #group-create-tabs .ui-tabs-nav li:first-child {    
+    border-radius: 8px 0 0 8px !important;
+}
+body.group-create #group-create-tabs .ui-tabs-nav li:last-child {    
+    border-radius: 0 8px 8px 0 !important;
+}
+
+body.group-create .create-resource-content {
+    max-width: 1000px;
+}
+
+body.group-create .container_12 .grid_12 {
+    width: 98%;
+}
+body.group-create .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+    display: inline;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+}
+
+body.group-create .tab-contents {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+body.group-create .create-resource-content .section-header, .create-collection .section-header {
+    color: #106f8e;
+    font-weight: 500;
+}
+body.group-create .create-resource-content .section-header {
+    display: block;
+}
+body.group-create #group-create-tabs .button { 
+    font-size: 0.88em !important;
+    line-height: 1 !important;
+    width: 180px !important;
+    margin-bottom: 20px !important;
+    margin-top: 0px !important;
+}
+
+#group-create-body label{
+    display: inline-block !important;
+    font-size: 1em;    
+    margin-bottom: 0 !important;
+    text-transform: uppercase !important;
+    color: #70706e !important;
+    font-family: "Proxima Nova",sans-serif !important;
+    line-height: 1.27em !important;
+    
+}
+
+#group-create-body label span {
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+
+body.group-create .optionset li {
+    color: #575757 !important;
+    font-size: 0.75em !important;
+    font-weight: 400 !important;
+    line-height: 1em !important;
+    margin: 0 0 0 10px !important;    
+    float: none !important;
+    font-weight: 400;
+}
+
+.group-lbl{
+    font-weight: 700 !important;
+}
+
+.subject-ul li label{
+/*    border: 1px solid red !important;*/
+    font-weight: normal !important;
+    margin: 0px !important;
+    font-size: 0.8em !important;
+}
+.subjectareas-ul li label{
+/*    border: 1px solid red !important;*/
+    font-weight: normal !important;
+    margin: 0px !important;
+    font-size: 0.8em !important;
+}
+.educationlevel-ul li label{
+/*    border: 1px solid red !important;*/
+    font-weight: normal !important;    
+    font-size: 0.8em !important;
+    margin:  8px 0 0px !important;
+}
+
+.member-content ul#activity-stream li .activity-meta {
+    display: none !important;
+}
+
+.group-home ul#activity-stream li .group-activity-member img
+{
+    border: 0px solid red !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.group-home .act_wrapper .page-activity-member
+{    
+    width: auto !important;    
+}
+
+.my-activity .act_wrapper .page-activity-member
+{    
+    width: auto !important;    
+}
+
+#group_create_privacy_options ul li
+{
+    font-size: 14px !important;
+    margin-left: 20px !important;
+}
+
+.group-create .grey-button {
+    background-color: #bcbec0 !important;
+    border: 1px solid #bcbec0 !important;
+    color: #ffffff !important;
+}
+
+.group-create #group-create-body img.avatar {
+    margin-right: 20px !important;
+}
+
+.group-create .jcrop-holder{
+    float: none !important;
+}
+
+.group-create .jcrop-holder{
+    float: none !important;
+    border: 2px solid #cdd0d1 !important;
+    padding: 5px !important;
+}
+.group-create #avatar-crop-pane{    
+    border: 2px solid #cdd0d1 !important;
+    padding: 5px !important;
+}
+
+.inv_wrapper .send-to-input {
+    background-color: #fff !important;
+    border: 1px solid #cdd0d1 !important;
+    border-radius: 8px !important;
+    color: #393938 !important;
+    font-size: 0.81em !important;
+    font-weight: 400 !important;
+    margin-bottom: 0px !important;
+    padding: 6px 16px !important;
+    width: 100% !important;
+}
+
+.inv_wrapper  ul.acfb-holder li small{    
+    margin-left: 5px !important;    
+}
+
+
+.inv_wrapper .main-column #message{    
+    display: none !important;
+}
+
+.inv_wrapper #invite-anyone-invite-list li{    
+    margin-left: 20px !important;
+}
+
+.inv_wrapper #invite-anyone-invite-list li img{    
+    float: left !important;
+}
+
+
+.inv_wrapper #invite-anyone-invite-list li h4 {    
+    width: 100% !important;
+    height: 55px !important;
+}
+
+#item-body .inv_wrapper #invite-anyone-invite-list li h4 a{    
+    display: inline !important;
+    margin-left: 10px !important;
+}
+.internal-page #item-nav{    
+    display: none !important;    
+}
+.internal-page .inv_wrapper{
+    width: 78%;
+    margin: 0 auto !important;
+}
+.group-create .inv_wrapper{
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+.internal-page .inv_wrapper .submit{    
+    float: right !important;
+}
+.bp-template-notice
+{
+    width: 80% !important; 
+    margin:0 auto !important;
+}
+
+.forum #bbpress-forums h3
+{    
+    margin-left: 180px !important;
+}
+
+.forum .page-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: none repeat scroll 0 0 #f1f1f1 !important;
+    border-bottom: 1px solid #f1f1f1 !important;
+    margin-bottom: -1px !important;    
+}
+
+.forum .recently-active ul li {
+    float: none !important;
+}
+
+.invite-new-members .item-list-tabs
+{
+    margin: 0 auto !important;
+    width: 70% !important;
+}
+.invite-new-members .item-list-tabs
+{
+    margin: 0 auto !important;
+    width: 70% !important;
+}
+.invite-new-members #invite-anyone-by-email
+{
+    margin: 0 auto !important;
+    width: 70% !important;
+}
+#invite-anyone-custom-subject
+{
+    height: 50px !important;
+}
+
+.sent-invites #item-body
+{
+    margin: 0 auto !important;
+    width: 70% !important;
+}
+
+.invite-new-members .invite-anyone-error
+{
+    margin: 0 auto;
+    width: 65%;
+}
+.invite-new-members #invite-anyone-steps .invite-anyone-error
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.sent-invite-back-btn
+{        
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-bottom: 10px !important;
+}
+.sent-invite-back-btn:hover
+{        
+    color: #fff;
+}
+
+.group-home .act_wrapper{
+    border: 0px solid red !important;
+    min-height: 80px !important;
+}
+.group-home .page-activity {
+    float: none !important;
+    margin-left: 0px !important;
+    width: 100% !important;
+}
+.group-home .load-more a
+{
+    color: #53830c !important;
+}
+.group-home .group-activity .act_body p
+{    
+    margin-left: 60px !important;
+}
+.group-home .sent-invite-btn
+{
+    width: 100% !important;
+}
+
+.group-home .group-button
+{
+    border-radius: 8px !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    font-family: "proxima-nova",sans-serif !important;
+    font-size: 1em !important;
+    font-weight: 500 !important;
+    margin-top: 0px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 3px !important;
+    text-align: center !important;
+    text-transform: none !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    display: table !important;
+}
+
+.forum .group-button a.join-group
+{
+    height: 38px !important;
+    padding-top: 5px !important;
+}
+.forum .group-button
+{
+    border-radius: 8px !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    font-family: "proxima-nova",sans-serif !important;
+    font-size: 1em !important;
+    font-weight: 500 !important;
+    margin-top: 0px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0px !important;
+    text-align: center !important;
+    text-transform: none !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    display: table !important;
+    height: 38px !important;
+}
+
+.forum .activity-sidebar .card, .page-sidebar .card
+{
+    min-width: 100%;
+}
+.forum .recently-active .card-button
+{
+     margin-top: 20px;
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-bottom: 0px;
+     clear: initial !important;
+}
+.forum .sent-invite-btn
+{
+    width: 100% !important;
+}
+
+.invite-anyone .bp-template-notice a
+{
+    background-color: #a5c546;
+    border: 1px solid #a5c546;
+    color: #ffffff;
+    margin-bottom: 10px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.forum-join-group-link
+{
+    color: #53830c !important;
+}
+
+.group-home #activity-stream
+{
+    margin-top: 30px !important;
+}
+
+.forum .bbp-the-content
+{
+    background-color: #fff !important;
+    border: 1px solid #cdd0d1 !important;
+    border-radius: 8px !important;
+    color: #393938 !important;
+    font-size: 0.81em !important;
+    font-weight: 400 !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 6px 16px !important;
+}
+body.forum {
+    /*background-color: #f1f1f1 !important;*/
+}
+
+.forum .quicktags-toolbar input
+{
+    width: 70px !important;
+}
+.forum #bbp_topic_title
+{
+    width: 100% !important;
+}
+
+.recently-active ul li.member img.avatar
+{
+    width: 35px !important;
+    margin-left: 5px !important;
+}
+.forum .recently-active ul li.member
+{
+    display: block !important;
+    border: 0px !important;
+}
+
+.forum .bbp-topics ul
+{
+    padding-left: 20px !important;
+}
+.forum .bbp-topics li
+{
+    float: none !important;    
+    display: block !important;    
+}
+.forum .bbp-topics li ul li
+{
+    float: none !important;    
+    display: inline-block !important;
+}
+
+.forum .bbp-topics li ul li a.bbp-author-avatar
+{
+    padding-top: 0px !important;
+    padding-right: 10px !important;
+    padding-left: 0px !important;
+    
+    float: left !important;
+    display: block !important;
+}
+.forum .bbp-topics li ul li a.bbp-author-avatar img
+{
+    width: 35px !important;
+}
+.forum .bbp-topics li ul li .bbp-author-name
+{
+    display: inline !important;
+}
+
+.bbp-topic-permalink
+{
+    padding-left: 0px !important;
+    font-size: 16px !important;
+}
+.bbp-author-avatar img
+{
+    margin-bottom: 0px !important;
+    width: 30px !important;
+}
+
+
+.forum .bbp-replies ul
+{
+    padding-left: 20px !important;
+}
+.forum .bbp-replies li
+{
+    float: none !important;    
+    display: block !important;    
+}
+/*.forum .bbp-replies li ul li
+{
+    float: none !important;    
+    display: inline-block !important;
+}*/
+
+.forum .item-list-tabs ul li a
+{
+    display: inline !important;
+    float: none !important;
+}
+.forum .bbp-meta a
+{
+    display: inline !important;
+    float: none !important;
+}
+.forum .bbp-replies .bbp-body .entry
+{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.forum #item-header ul li {
+    display: inherit !important;
+}
+.forum .subscription-toggle,.favorite-toggle
+{
+    display: inline !important;
+}
+
+#bbpress-forums {
+    font-size: 16px !important;;
+}
+
+.forum .container_12 .grid_2 {
+    width: 16%;
+}
+
+.forum .grid_2 {
+    margin-right: 0%;
+}
+
+
+.forum .container_12 .grid_10 {
+    width: 80%;
+}
+
+.forum .forum-home-tabs .subscribe-btn
+{
+    float: right !important;
+}
+.forum .forum-home-tabs .ui-tabs-active a
+{
+    background-color: #7da941 !important;
+}
+.forum .forum-home-tabs .forum-tab-btn
+{
+    font-size: 0.88em !important;
+    line-height: 1 !important;
+    display: inline-block;
+    background-color: #a5c546 !important;
+    border-radius: 8px !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    font-family: "proxima-nova",sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    margin-left: 10px !important;
+    padding: 7px !important;
+    text-align: center !important;
+    text-transform: none !important;
+    width: 124px !important;
+}
+
+.forum .secondary-btn a
+{
+    font-size: 0.88em !important;
+    line-height: 1 !important;
+    display: inline-block !important;
+    background-color: #fff !important;
+    border-radius: 8px !important;
+    color: #99c736 !important;
+    cursor: pointer !important;
+    font-family: "proxima-nova",sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    margin-left: 10px !important;
+    padding: 7px !important;
+    text-align: center !important;
+    text-transform: none !important;
+    width: 124px !important;
+    border: 1px solid #99c736 !important;
+}
+
+.forum #bbpress-forums h3
+{
+    color: #106f8e !important;
+    font-weight: 500 !important;
+    font-family: "Proxima Nova",sans-serif !important;
+    font-size: 1.5em !important;
+    line-height: 1.45em !important;
+}
+
+.back-to-topic{
+    margin-bottom: 10px !important; 
+}
+.generic-green-btn
+{
+    font-size: 0.88em !important;
+    line-height: 1 !important;
+    display: inline-block;
+    background-color: #a5c546 !important;
+    border-radius: 8px !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    font-family: "proxima-nova",sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;    
+    padding: 7px !important;
+    text-align: center !important;
+    text-transform: none !important;
+    width: 124px !important;
+}
+
+.resource-page #add-to-lib-dialog .grid_8 {
+    width: 800px !important;
+    min-width: 715px;
+    min-height: 255px;
+    border: 0px solid red !important;
+}
+.page-template-page-sr #add-to-lib-dialog .grid_8 {
+    width: 800px !important;
+    min-width: 715px;
+    min-height: 255px;
+    border: 0px solid red !important;
+}
+
+.resource-page #add-to-lib-dialog .grid_4 {
+    width: 31.333% !important;
+    border: 0px solid red !important;
+}
+.page-template-page-sr #add-to-lib-dialog .grid_4 {
+    width: 31.333% !important;
+    border: 0px solid red !important;
+}
+
+.my-library-folders{
+    min-height: 300px !important;
+    width: 800px !important;
+}
+
+.ng-hide
+{
+    display: none;
+}
+
+.show_ul
+{
+    display: block;
+}
+
+.btn-disabled { 
+    opacity: 0.4;
+}
+.btn-enabled { 
+    opacity: 1;
+}
+
+.small-label
+{
+    font-size: 11px !important;
+}
+
+.modal .close:hover{
+    cursor: pointer !important;
+}
+
+.rss-img-top {
+    float: left !important;
+    margin-right: 3px !important;
+    margin-top: 3px !important;
+    width: 16px !important;
+}
+
+.page-template-page-sr .rss-img-top {
+    float: left !important;
+    margin-right: 3px !important;
+    margin-top: 5px !important;
+    width: 16px !important;
+}
+
+.rss-img-top-member {
+    float: left !important;
+    margin-right: 3px !important;
+    margin-top: 5px !important;
+    width: 16px !important;
+}
+
+.feed a{
+    float: right !important;
+}
+
+.member-hom-feed-wrapper
+{    
+    height: 25px !important;
+    margin-top: 55px !important;
+}
+
+
+.my-activity #content .activity ul li img {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.my-activity #content .activity ul li .page-activity {
+    float: left !important;
+    margin-left: 0 !important;
+}
+
+.my-activity #content .activity ul li.page-activity-card {
+    margin-bottom: 0px !important; 
+    padding-top: 0px !important; 
+}
+
+
+
+.my-activity #content .activity ul li div.group-activity-member a {
+    display: block !important;
+    height: 30px !important;
+    margin-top: 0 !important;
+}
+
+.my-activity #content .activity ul li div.act_body p {
+    margin-left: 8px !important;
+}
+
+.my-activity ul.info .grid_3 li span
+{
+    border: 0px solid red;
+    width: 100% !important;
+}
+.my-groups ul.info .grid_3 li span
+{
+    border: 0px solid red;
+    width: 100% !important;
+}
+
+#add-to-lib-alert #go_to_collection_btn {
+    float: none !important;
+    width: 190px !important;
+}
+
+.sort-btn
+{
+    color: #53830c !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    padding: 5px !important;  
+}
+
+.sort-btn-bold
+{
+    font-weight: bold;
+}
+.sort-wrapper
+{
+    margin-left: 100px !important;
+    font-size: 14px !important;
+    margin-left: 476px !important;
+}
+
+.just-me .activity-item img{
+    
+    width: 60px !important;
+    height: 60px !important;
+}
+.just-me .activity-item .page-activity-member a{    
+    width: 75px !important;
+    height: 60px !important;
+    display: inline-block !important;
+}
+
+.just-me .activity-item .page-activity{    
+    padding-top: 10px !important;
+}
+
+.just-me .activity-item{
+    margin-bottom: 0px !important;
+}
+.just-me .activity-item .act_body{
+    margin-left: 8px !important;
+}
+
+.page-activity {   
+    margin-left: 0px !important;
+    width: 91% !important;
+}
+
+.resource-page .flag_wrapper
+{
+    border: 0px solid red !important;
+    height: 50px !important;
+}
+
+.resource-page #add-to-lib-alert{
+    width: 680px !important;
+}
+
+.resource-page #add-to-lib-alert button{
+    width: 150px !important;
+    float: none !important;
+}
+
+.resource-page .mark-blod
+{
+    font-weight: bold !important;
+}
+.resource-page .mark-unblod
+{
+    font-weight: normal !important;
+}
+
+.resource-page .selected-resource
+{
+    background: none repeat scroll 0 0 #99c736 !important;
+    color: #ffffff !important;
+}
+.resource-page .selected-resource:hover
+{
+    background: none repeat scroll 0 0 #99c736 !important;
+    color: #ffffff !important;
+}
+
+.resource-page .selected-resource .fa-li
+{    
+    color: gray !important;
+}
+.resource-page .my-library-folders ul li{
+    cursor: pointer;
+}
+
+.resource-header-author .author, .review .author {
+    font-size: 0.85em !important;
+}
+
+
+.resource-page a.link_cls{
+    color: #53830c !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+}
+
+.curriki-rating .rating-badge
+{
+    /*display: inline !important;*/
+    width: 35px !important;
+    height: 35px !important;
+    padding-top: 10px !important;
+}
+
+.resource-page #treeview1 table
+{
+    margin: 0px !important;
+}
+
+
+.resource-page button.button-link {
+    /*background-color: #ff7f00 !important;
+    border: 1px solid #ff0000  !important;*/
+    color: #ffffff  !important;
+    cursor: pointer  !important;
+    display: inline-block !important;
+    font-family: Helvetica !important;
+    font-size: 11px !important;
+    height: auto !important;
+    padding: 4px 10px 3px !important;
+}
+
+.resource-page .sub-asset-wrapper button.button-link-download {
+    float: right !important;
+}
+
+.resource-page .asset-display-download p.text-link {
+    float: left !important;
+    margin: 0 !important;
+    width: 70% !important;
+}
+
+.resource-page a.icon-link {
+    background-image: url("images/sprite_filetype.gif") !important;
+    background-repeat: no-repeat !important;
+    display: block !important;
+    float: left !important;
+    height: 40px !important;
+    margin: 0 5px 0 0 !important;
+    text-indent: -9999px !important;
+    width: 32px !important;
+    color: #369 !important;
+    background-position: 0 -900px !important;
+}
+
+.activity-permalink .act_wrapper
+{    
+    margin: 0 auto !important;
+    margin-top: 100px !important;
+}
+.activity-permalink .act_wrapper .activity-meta
+{
+    display: none !important;
+}
+
+.activity-permalink .activity-list li
+{    
+    max-width: 100% !important;
+}

@@ -1,0 +1,7 @@
+.library-rating {
+    width: 145px !important;
+}
+
+.in_active_resource_tile a{
+    text-decoration: line-through !important;
+}

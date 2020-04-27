@@ -1,0 +1,46 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
+
+.theme3icon {
+  float: left;
+  margin: 0 0px;
+  width: 60px;
+  height: 60px;
+  border: 4px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 0 3px #ddd, inset 0 0 3px #666;
+  cursor: pointer;
+  
+  color: #fff;
+  font-size: 1.6em;
+  -webkit-font-smoothing: antialiased;
+  line-height: 5.2rem;
+  text-align: center;
+  text-shadow: 0px 0px 2px #666;
+  
+  -webkit-transition: .3s;
+		 -moz-transition: .3s;
+			 -o-transition: .3s;
+			-ms-transition: .3s;
+			  	transition: .3s;
+}
+
+.theme3icon:hover {
+  margin: -10px 0px;
+}
+
+.entypo-linkedin {background: #007bb5;}
+
+.entypo-twitter {background: #4099ff;}
+
+.entypo-facebook {background: #3b5998;}
+
+.entypo-pinterest {background: #cb2027;}
+
+.entypo-gplus {background: #dd4b39;}

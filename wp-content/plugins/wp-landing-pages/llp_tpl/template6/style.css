@@ -1,0 +1,632 @@
+*  {
+    margin:0;
+    outline:0 none;
+    padding:0
+}
+
+header  {
+    background:none;
+    height: 50px;
+}
+
+.dspblk  {
+    display:inline-block;
+}
+
+body  {
+    font-size:12px;
+    line-height:1.3;
+    font-family:'arial',sans-serif;
+    background: #e9e7e6 url(images/mainbg.png) repeat-x;
+}
+
+h1,h2,h3  {
+    text-align: center;
+    font-family: impact;
+    text-shadow: 1px 1px white, -1px -1px #000;
+    color: #ab0000 !important;
+    font-size: 32px !important;
+    font-style: italic;
+}
+img.circleleft {
+    margin-right:10px;
+}
+img.circleright {
+    margin-left:17px;
+}
+body,h1,h2,h3,p  {
+    margin:0;
+    padding:0;
+    font-size:14px;
+    font-weight:300;
+    line-height:1.5625;
+    color:#333333;
+    text-decoration:none
+}
+
+b  {
+    color:#1090bd
+}
+
+a  {
+    color:#108cb8
+}
+
+img  {
+    vertical-align:middle
+}
+
+#content h2,#content p,.video-course .yellow-btn,.video-course .insurance ul li.first .text-holder span.yellow,.video-course .insurance ul li.first .text-holder p.sub b,.video-course .insurance ul li.first .text-holder span,footer p a  {
+    white-space:pre-wrap;
+    white-space:-moz-pre-wrap;
+    white-space:-pre-wrap;
+    white-space:-o-pre-wrap;
+    word-wrap:break-word
+}
+
+.left,.alignleft  {
+    float:left;
+    display:inline
+}
+
+.right,.alignright  {
+    float:right;
+    display:inline
+}
+
+#logo  {
+    margin:0px 0 0px;
+    padding: 8px 0 12px 0;
+    width: 100%;
+    border-style: none;
+    border: none;
+    text-align: center;
+}
+
+#logo a  {
+    display:inline-block;
+    border-style:none;
+    border:none:
+}
+
+#logo img  {
+    max-width:195px;
+    border-style:none;
+    border:none
+}
+
+.headmain  {
+    width: 977px;
+    margin:0 auto;
+}
+#wrap  {
+    margin:0 auto;
+    background: white;
+    width: 874px;
+    border: solid 1px #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 8px #292929;
+    padding-bottom: 33px;
+}
+
+#lb-fade-box  {
+    background: #e9e7e6;
+    width: 74%;
+    margin: 0 auto;
+    padding: 18px 18px 1px 18px;
+    border-radius: 9px;
+    border: solid 1px #949494;
+}
+#top-bg  {
+    float:left;
+    margin:0;
+    padding:0;
+    width:805px;
+    height:10px
+}
+
+#bottom-bg  {
+    float:left;
+    margin:0;
+    padding:0;
+    width:805px;
+    height:11px
+}
+
+.num-bold  {
+    padding-left:5px
+}
+
+#content  {
+    float:left;
+    margin:0;
+    padding:0;
+    width: 874px;
+    padding-top: 45px;
+}
+
+.yellowhigh  {
+    background:yellow;
+    background: yellow;
+}
+#content .headline  {
+    margin:20px auto;
+    padding:0;
+    font-size:34px;
+    font-weight:700;
+    text-align:center;
+    color:#777777;
+    width:95%
+}
+
+#content .headline b  {
+    color:#1090bd;
+    font-weight:700
+}
+
+#content .course-description  {
+    padding:10px;
+    text-align:center
+}
+
+#content .bottom-text  {
+    margin:10px auto 20px auto;
+    padding:0;
+    font-size:16px;
+    text-align:center;
+    color:#1d1d1d;
+    width:91%
+}
+
+#content .bottom-text a  {
+    color:#108cb8
+}
+
+#vid-frame  {
+    clear:both;
+    margin:10px auto 62px;
+    padding:0;
+    width:750px;
+    height:414px;
+}
+
+#vid-frame #video  {
+    margin: 0 0 0 0px;
+    padding: 0;
+    width: 750px;
+    height: 414px;
+    background-color:#1e2223
+}
+
+.video-container  {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-course .complete-line  {
+    position:relative;
+    width:669px;
+    margin:0 auto;
+    overflow:hidden;
+    background:url('images/bg5.png') repeat-x 0 0
+}
+
+.video-course .complete-line .progress-bar  {
+    height:17px;
+    background:url('images/progress-bar.png') repeat-x 0 0;
+    background-color:#FEC210;
+    -webkit-transition:width 0.6s ease;
+    -moz-transition:width 0.6s ease;
+    -o-transition:width 0.6s ease;
+    transition:width 0.6s ease
+}
+
+.video-course .complete-line span  {
+    width:100%;
+    text-align:center;
+    float:left;
+    display:block;
+    background:url('images/line.png') no-repeat 0 -669px;
+    font-size:11px;
+    line-height:17px;
+    text-shadow:0 0 3px #fff;
+    color:#2a2a2a
+}
+
+.video-course .video-course p  {
+    padding-bottom:30px
+}
+
+.video-course .yellow-btn  {
+    margin-top: 55px;
+    font-weight: normal;
+    font-family: impact;
+    margin-top: 55px;
+    overflow:hidden;
+    display:block;
+    width:604px;
+    margin:0 auto;
+    font-size:29px;
+    line-height:30px;
+    color: #c5a103;
+    text-decoration:none;
+    text-transform: uppercase;
+    text-align:center;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    margin-bottom:20px;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#f8d201),color-stop(1,#ffbf28));
+    background:-moz-linear-gradient(center top,#f8d201 5%,#ffbf28 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdd048',endColorstr='#ffbf28');
+    background-color:#fdd048;
+    padding:22px 20px;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.img8  {
+    position: relative;
+    top: -2px;
+}
+.video-course .yellow-btn:hover  {
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#ffbf28),color-stop(1,#fdd048));
+    background:-moz-linear-gradient(center top,#ffbf28 5%,#fdd048 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbf28',endColorstr='#fdd048');
+    background-color:#ffbf28
+}
+
+.video-course .yellow-btn:after  {
+}
+
+.video-course .insurance ul li  {
+    float:left;
+    display:inline
+}
+
+.video-course .insurance ul li.first  {
+    width:450px
+}
+
+.video-course .insurance ul li.first .text-holder  {
+    width:340px;
+    margin:0 0 0 14px
+}
+
+.video-course .insurance ul li.first .text-holder span  {
+    display:block
+}
+
+.video-course .insurance ul li.first .text-holder span.yellow  {
+    font-size:36px;
+    line-height:36px;
+    color:#fbc219
+}
+
+.video-course .insurance ul li.first .text-holder p.sub  {
+    font-size:18px;
+    line-height:24px;
+    margin:0
+}
+
+.video-course .insurance ul li.first .text-holder p.sub b  {
+    display:inline;
+    font-weight:normal
+}
+
+.video-course .insurance ul li.first .text-holder p.gray  {
+    font-size:12px;
+    line-height:18px
+}
+
+.video-course .insurance ul li.third  {
+    float:right;
+    display:inline;
+    width:115px;
+    margin:0 18px 0 0
+}
+
+.video-course .insurance ul li.third ul li  {
+    margin:0 0 12px 13px
+}
+
+.video-course .insurance  {
+    margin:20px 30px 82px 30px
+}
+
+#sharebar  {
+    width:70px;
+    margin:-47px 0;
+    display:block;
+    position:absolute;
+    background:transparent;
+    border:none;
+    padding:5px;
+    list-style:none;
+    text-align:center;
+    z-index:9999
+}
+
+#sharebar li  {
+    padding-top:5px
+}
+
+footer  {
+    clear:both;
+    margin: 48px auto 0;
+    padding: 0;
+    width: 100%;
+    background: none;
+    height: 48px;
+}
+footer p  {
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:#555555;
+    font-size:14px
+}
+
+footer p a  {
+    font-size:14px;
+    text-decoration:underline
+}
+
+footer .fb_iframe_widget  {
+    margin:20px auto;
+    width:100%
+}
+
+.fb-comments  {
+    margin:20px auto;
+    width:100%
+}
+
+.fb-comments,.fb-comments span[style],.fb-comments iframe[style]  {
+    width:100%!important
+}
+
+#sharebar-bottom>li  {
+    float:left;
+    list-style-type:none;
+    margin-left:10px
+}
+
+#sharebar-bottom  {
+    width:200px;
+    margin:0 auto;
+    visibility:hidden
+}
+
+#sharebar-bottom li  {
+    display:none
+}
+
+input[type=text],input[type=email]  {
+    width:99%;
+    height:50px;
+    border:1px solid rgba(0,0,0,0.09);
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    text-align:center;
+    font-family:'Open Sans',sans-serif;
+    font-weight:400;
+    font-size:20px;
+    color:#4f4f4f;
+    font-style:italic;
+    margin:0 0 10px !important;
+    background:#ffffff
+}
+
+form .yellow-btn  {
+    font-family: impact;
+    overflow:hidden;
+    display:inline-block;
+    width:98%;
+    margin:0 auto;
+	margin-bottom:5px;
+	border:0;
+    font-size:25px;
+    line-height:20px;
+    color: #c5a103;
+    text-decoration:none;
+    text-transform: uppercase;
+    text-align:center;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#fdd048),color-stop(1,#ffbf28));
+    background:-moz-linear-gradient(center top,#fdd048 5%,#ffbf28 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdd048',endColorstr='#ffbf28');
+    background-color:#fdd048;
+    padding:22px 20px;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+form .yellow-btn:hover  {
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#ffbf28),color-stop(1,#fdd048));
+    background:-moz-linear-gradient(center top,#ffbf28 5%,#fdd048 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbf28',endColorstr='#fdd048');
+    background-color:#ffbf28
+}
+
+@media only screen and (max-width:1000px)  {
+    .headmain  {
+        width: 90%;
+        margin:0 auto;
+    }
+    h1,h2,h3  {
+        text-align: center;
+        font-family: impact;
+        text-shadow: 1px 1px white, -1px -1px #000;
+        color: #ab0000 !important;
+        font-size: 32px !important;
+        font-style: italic;
+    }
+    footer,#wrap  {
+        width:90%
+    }
+
+    footer  {
+        width:100%
+    }
+
+    #content  {
+        width:100%;
+        float:none;
+        margin:0 auto
+    }
+
+    .video-course  {
+        width:95%;
+        margin:0 auto
+    }
+
+    .video-course .complete-line  {
+        width:83%
+    }
+
+    .progress-bar  {
+        width:25%
+    }
+
+    #vid-frame  {
+        width:91%;
+        height:auto;
+        background-size:100% 100%;
+        padding-top:6.5%;
+        padding-bottom:6.5%
+    }
+
+    #vid-frame #video  {
+        width:81%;
+        height:auto;
+        margin-left:9.5%
+    }
+
+    .video-course .yellow-btn  {
+        width: 88%;
+    }
+
+    #sharebar-bottom  {
+        visibility:visible
+    }
+
+    #sharebar-bottom li  {
+        display:block
+    }
+
+}
+@media only screen and (max-width:870px)  {
+    h1,h2,h3  {
+        text-align: center;
+        font-family: impact;
+        text-shadow: 1px 1px white, -1px -1px #000;
+        color: #ab0000 !important;
+        font-size: 32px !important;
+        font-style: italic;
+    }
+    .video-course .insurance ul li  {
+        width:100%;
+        display:block;
+        clear:both;
+        float:none;
+        margin-top:10px
+    }
+
+    .video-course .insurance ul li.first  {
+        width:100%
+    }
+
+    .video-course .insurance ul li.third  {
+        float:none;
+        width:100%
+    }
+
+    .img-holder>img,.img-holder.left,.third>img  {
+        float:none;
+        display:block;
+        margin:0 auto
+    }
+
+    .video-course .insurance ul li.first .text-holder  {
+        width:100%;
+        text-align:center
+    }
+
+    .video-course .insurance ul li.first .text-holder  {
+        margin:5px 0 0 0
+    }
+
+    .video-course .insurance  {
+        margin:20px 30px 10px
+    }
+
+    .video-course .insurance ul li.third  {
+        margin-right:0
+    }
+
+}
+@media only screen and (max-width:778px)  {
+    h1,h2,h3  {
+        text-align: center;
+        font-family: impact;
+        text-shadow: 1px 1px white, -1px -1px #000;
+        color: #ab0000 !important;
+        font-size: 22px !important;
+        font-style: italic;
+    }
+    .video-course .yellow-btn  {
+        line-height:22px;
+        padding:20px;
+        font-size:18px
+    }
+
+    #content .course-description  {
+        padding:10px 0
+    }
+
+}
+@media only screen and (max-width:640px)  {
+    h1,h2,h3  {
+        text-align: center;
+        font-family: impact;
+        text-shadow: 1px 1px white, -1px -1px #000;
+        color: #ab0000 !important;
+        font-size: 16px !important;
+        font-style: italic;
+    }
+    #content .headline  {
+        font-size:22px
+    }
+
+}
+@media only screen and (max-width:480px)  {
+    .video-course img {
+        width: 8%;
+    }
+    h1,h2,h3  {
+        text-align: center;
+        font-family: impact;
+        text-shadow: 1px 1px white, -1px -1px #000;
+        color: #ab0000 !important;
+        font-size: 13px !important;
+        font-style: italic;
+    }
+    .video-course .yellow-btn  {
+        font-size:16px
+    }
+
+}

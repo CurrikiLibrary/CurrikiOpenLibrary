@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2017, 2:05:25 PM
+    Author     : alimehdi
+*/
+
+#question_form {
+    background: #fff;
+}
+#question_form h3, #question_form h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#question_form label{
+    cursor: pointer;
+    display: inline-block;
+}
+
+#question_form textarea, #question_form [type=text]{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+#question_form textarea {
+    height: 100px;
+}
+
+#question_form table td{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+.error{
+    border:1px solid red !important;
+}
+/*.display_none {
+    display: none !important;
+}*/
+.mce-container{
+    /*top:10px !important;*/
+}
+
+.mce-questions{
+    top:10px !important;
+}
+
+.frontend-label [name=option] {
+    width: 30px;
+    float: left;
+    display: block;
+    margin: 0;
+    margin-top: 15px;
+    height: 15px;
+}
+
+.frontend-label .option_val{
+    float: left;
+    width: 95%;
+}
+
+.question_wrapper .clearfix{
+    clear: both;
+    height: 0;
+}
+.question_frontend_options .frontend_option{
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.question_frontend_options .frontend_option p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.questions-tabs > ul li a {
+    padding:5px 10px;
+    display: inline-block;
+}
+.questions-tabs > ul li {
+    display: inline-block;
+}
+
+.questions-tabs > ul li.ui-tabs-active a {
+    background: #53830c;
+    color:#fff;
+}
+
+.question_title .question p{
+    color: #70706E;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.mce-path {/* CSS */
+    display: none !important;
+}
+
+.question_wrapper img{
+    display: initial;
+}

@@ -1,0 +1,58 @@
+.navigation {
+    margin-top: 25px;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+.nav-pills>li {
+    float: left;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.nav-pills>li>a {
+    border-radius: 4px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #337ab7;
+}
+.autofill{
+    border: 1px solid #c5c5c5;
+    width: 95%;
+}
+
+.autofill li {
+    cursor: pointer;
+    display: block;
+    
+}
+.autofill li:hover {
+    background-color:#117bf3;
+    color:#fff;
+}
+
+.ui-dialog-buttonset form {
+    display:inline-block;
+}

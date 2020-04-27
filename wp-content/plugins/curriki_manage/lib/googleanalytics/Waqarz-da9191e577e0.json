@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "x2-tensile-axon-m",
+  "private_key_id": "da9191e577e0e2c8dae1b88020097f46b36284f7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDbvYdvcT1QflkO\nE8UAbJk+3sP3D3BV1RmTDe2+iNHTJwSTK3nL5sgeCVVDvrZC8+R8aFRZRKD3ya9X\n5sEy2Q05aTc7zcjJEsQe7pTtNLP8DccdrnaJ4uC9oVH/oJ1HOxd2niGYmZosjf3v\nBwzQPFo3tV0Nx5Gbr68jq7YoNr0j68WMUg0D1x7SS8XqDpqAHcWQyYtVsJnvzPxj\nHC/Qp+3Vblmgs/Uy7mtxshEyCzrtMr5hyra5tBhdX+9jiw2GiAmYBdSOKa2vhMpE\ncJKEKY9NhCy7xcuNNhrTvOIogzEpGOSejosUQCj6osLCcieAYOJjXFjam/48wOMm\n9dQ38enXAgMBAAECggEAY01Ata9+bnBSrWZouhrZnAxOkckz0k4VmxuJy3eIHvx8\neEeG6IrX957vHcjDE/mk0UXSjG7TsXa+2yHoQCLPc5jlQYzrBlcJMxNNUO7mwWq2\nh2bOodxaBMgwxq0eNlDxdwTaGNydTDI0xb6xXy9O8+rtbOs5lZossxmHnZ+zFNZC\nfTmvAJ5q8ZhyDWjRH8J+9lEVYW0Hu0vgZ2Tg2YS5hgFHXdoet6PB2Mh4FhI7kzgK\npHa9WGl4+y122Fibck0h+Vd1G5Riu17j3yzEQ9XEks4CAYgvZcF2wavpBUCMifJJ\ngLuN1p6xETwbho9vilVPUvnd9JA/Ek+7uy9ziklaxQKBgQD0nySsepdmdxVab7/D\n0F5rJqa8334KnU1wjAjh3RB0nWIqL6okK8aLCbj5G9bT+zNWcVcJg+Dx8njJLyaO\nQV3XvZOi9vQwRF76cTjUhmCBzmarnjsdhZDUJn5i58sbmFysfLiN5z5DVKfOXsct\n4ABuOG6SxSzf5//9XCstNrzAOwKBgQDl9hvx4ShIJ6qCb+FcIjVB5v3Kujz5bCXa\nEICo6VSw3+QQ60eN8fy8P6fMzHLOFF+JBgK2R9gtaL4Qnkr5RR3ZVh0rSxZM32FW\n+9exQy6cILTl+ttQe4anu5mffRLzMpIjIKNjKsx0eJO6T1rur3UM+Im2n/VVmoGv\nV073QZ0fFQKBgQCO3T7q6LHxaszyw18IunHaPHmWxyPyiQoIGBC78ILCyIPjRXEl\nrNdIroX0HrkploTWEF2Xtgiy5Tx7qujmnfBzpklKHNZiNhwOQf/BxzUnumamBkRa\nKn56GH0pwFwTorlFF5Ylcg8f/Zn/YcUL2s4FkTmqyDM8FV+hFao1vskfrwKBgQCj\n5W1zTis8ifDPuFehJ8xXZP+bHnNYvYiYy8w3Ft3Clj/hAx9jfoXH0YKRx2FHmWOh\nsEP8kGX1r0JPa9I5qNYmUWbGtWR2c3rX2PSYpS4yHmlvxAPNb8y//Uf3UNhRtshK\n+vcYNae0lz+KuQYxOaIuFXFpVMYxNcaaJprkRMJsJQKBgBt08VHbUO8fw7d7tb/J\ngc+Kf2cSSu8m84RdxxS6mPR+C8PLpsJyUp8EORb14m54oKMstqoGzGrvHueqoxNq\nQMxAlbRa0sHotNh3B/jkIRabRc+pc9ImErb/UudfM8nc8WSNz/4d/noLQqGCdEo5\nRB7fwhwKhQvVYH585GxVeUe+\n-----END PRIVATE KEY-----\n",
+  "client_email": "waqardoapi@x2-tensile-axon-m.iam.gserviceaccount.com",
+  "client_id": "114147913009085766766",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/waqardoapi%40x2-tensile-axon-m.iam.gserviceaccount.com"
+}

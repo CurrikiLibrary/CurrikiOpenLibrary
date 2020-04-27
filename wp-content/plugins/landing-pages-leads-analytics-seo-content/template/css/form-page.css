@@ -1,0 +1,126 @@
+.form-application-block {
+    margin: 20px 0 60px 20px;
+}
+.form-application {
+    width: 410px;
+    float:left;
+}
+.form-application-image {
+    float:left;
+    margin-left: 40px;
+    margin-top:15px;
+}
+.text-description {
+    font-size: 16px;
+    float:left;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.form-post-landing-page {
+    margin-left:20px;
+    margin: 0 auto;
+    display: table;
+    margin-bottom:50px;
+}
+
+.form-application div.input input[type="text"].error, .form-application div.input input[type="radio"].error, .form-application div.input textarea.error {
+    border:1px solid red;
+}
+.form-application div.label, .form-application div.input {
+    width: 200px;
+}
+.form-application div.one-label {
+    width: 150px;
+}
+.form-application div.auto-width {
+    width: auto; 
+}
+.form-application div.one-input {
+    width: 250px;
+}
+.form-application div.label, .form-application div.input{
+    position: relative;
+    float:left;
+    margin-top:15px;
+    margin-bottom: 15px;
+    font-size: 16px; 
+}  
+.form-application div.input .error-message {
+    font-size: 12px;
+    position: absolute;
+    top:-20px;
+    color:red;
+    width: 200px;
+}
+.form-success-message {
+    color:green;
+    font-size: 14px;
+}
+.form-application .row-form {
+    width: 410px;
+    clear: both;
+}
+.form-application div.label {
+    padding-top: 6px;
+}
+.form-application div.label label{
+    cursor: pointer;
+}
+.form-application div.input input[type="text"]{
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid #4bbdc6;
+    padding: 3px;
+}
+.form-application div.input textarea{
+    border: 1px solid #4bbdc6;
+    font-size: 14px;
+    padding: 3px;
+
+}
+.form-application div.input input[type="text"]:focus, .form-application div.input textarea:focus{
+    border: 1px solid #4bbdc6;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+}
+
+.buttom-form-app {
+    -moz-box-shadow: 0px 10px 14px -7px #adadad;
+    -webkit-box-shadow: 0px 10px 14px -7px #adadad;
+    box-shadow: 0px 10px 14px -7px #adadad;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0092a8), color-stop(1, #52adb3));
+    background:-moz-linear-gradient(top, #0092a8 5%, #52adb3 100%);
+    background:-webkit-linear-gradient(top, #0092a8 5%, #52adb3 100%);
+    background:-o-linear-gradient(top, #0092a8 5%, #52adb3 100%);
+    background:-ms-linear-gradient(top, #0092a8 5%, #52adb3 100%);
+    background:linear-gradient(to bottom, #0092a8 5%, #52adb3 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0092a8', endColorstr='#52adb3',GradientType=0);
+    background-color:#0092a8;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #327175;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:7px 15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #0f9299;
+}
+.buttom-form-app:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #52adb3), color-stop(1, #0092a8));
+    background:-moz-linear-gradient(top, #52adb3 5%, #0092a8 100%);
+    background:-webkit-linear-gradient(top, #52adb3 5%, #0092a8 100%);
+    background:-o-linear-gradient(top, #52adb3 5%, #0092a8 100%);
+    background:-ms-linear-gradient(top, #52adb3 5%, #0092a8 100%);
+    background:linear-gradient(to bottom, #52adb3 5%, #0092a8 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#52adb3', endColorstr='#0092a8',GradientType=0);
+    background-color:#52adb3;
+}
+.buttom-form-app:active {
+    position:relative;
+    top:1px;
+}
+

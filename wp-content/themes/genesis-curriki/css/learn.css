@@ -1,0 +1,113 @@
+.learning-content {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+	.learning-content {
+		max-width: 830px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.learning-helper {
+	margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+	.learning-helper {
+		margin-left: -20px;
+	}
+}
+
+.page-title-v2 {
+	color: #1f83f4;
+	font-size: 28px;
+	font-weight: 700;
+	position: relative;
+	margin-bottom: 30px;
+	line-height: 1.3;
+}
+
+.page-title-v2:before {
+	content: "";
+	position: absolute;
+	top: 100%;
+	width: 20px;
+	border-top: 3px solid #ffcb1f;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
+}
+
+.learn-desc {
+	color: #535353;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.learn-desc h2 {
+	color: #272727;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.learn-list-icon-check {
+	list-style: none;
+	padding-left: 0;
+}
+
+.learn-list-icon-check > li {
+	background-image: url(../images/learn-page/check_circle.png);
+	background-repeat: no-repeat;
+	min-height: 40px;
+	padding-left: 43px;
+	margin-bottom: 20px;
+}
+
+.info-box {
+	text-align: center;
+	color: #7d7d7d;
+	line-height: 1.3;
+	margin-bottom: 20px;
+}
+
+.info-box .icon {
+	display: inline-block;
+	width: 47px;
+	height: 50px;
+	background-image: url(../images/learn-page/learn_icons.png);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	margin-bottom: 25px;
+}
+
+.info-box .icon-program {
+	background-position: -48px 0px;
+}
+
+.info-box .icon-playlist {
+	background-position: -97px 0px;
+}
+
+.info-title {
+	color: #1f83f4;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.panel-learn {
+	border: 1px solid #efefef;
+	border-radius: 6px;
+}
+
+.panel-learn-title {
+	padding: 20px;
+	font-size: 16px;
+	font-weight: 500;
+	font-family:'Museo',serif;
+	margin-bottom: 0;
+}

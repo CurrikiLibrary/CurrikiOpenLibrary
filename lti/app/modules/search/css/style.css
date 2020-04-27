@@ -1,0 +1,128 @@
+/* 
+    Created on : Mar 21, 2016, 8:58:41 PM
+    Author     : furqanaziz
+    Purpose    : to manage style of search module
+*/
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {display: none !important;}
+.site-container{min-width: 250px;}
+#language{float:left;}
+.subjectarea{display: none;}
+.show-hide-options{cursor: pointer;}
+.optionset {padding: 0px 20px;width:20%}
+.collection-actions div {width: 33.18%;cursor: pointer;}
+.search-term span{cursor: pointer;}
+.search-term span:hover{text-decoration: underline;}
+.disabled{cursor: not-allowed !important;}
+#standards-accordion select {border-radius: 0; width: 75%; height: 254px}
+#standards-accordion select option {border-bottom: solid 1px #7d8d96; padding: 5px;}
+.search-tool-tip{cursor: help}
+.toolTipCustomClass{font-size: 11px !important;color:#124C72 !important;width:600px !important;max-width:700px !important;}
+.toolTipCustomClass li{margin-left:20px; list-style: disc}
+.sort-dropdown{ text-align: right;float: right;}
+.library-collection{position: relative;}
+.tab:hover {
+    color: #FFF;
+    background: none repeat scroll 0% 0% #124C72;
+    padding: 5px 0px;
+    top: -4px;
+    border-width: 1px 1px medium;
+    border-style: solid solid none;
+    border-color: #124C72 #124C72 -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    cursor: pointer;
+    display: inline-block !important;
+}
+.library-collection .edit{
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #D1D1D1;
+    border-radius: 0px 0px 0px 7px;
+    background: none repeat scroll 0% 0% #FFF;
+    color: rgb(165, 197, 70);
+    font-size: 22px;
+    padding: 2px 5px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.subject-optionset {padding-right: 0px;position: relative;}
+.subject-optionset li input{margin: 5px;}
+.subject-optionset li{padding-right: 20px;margin: 0px -1px 0px 0px;padding-left: 10px;}
+.subject-optionset li.hover{background: #F1F2F2;border-color: #ADADAD; -moz-use-text-color: #ADADAD #ADADAD;border-width: 1px medium 1px 1px;border-style: solid none solid solid;margin: -1px;}
+.subjectarea-optionset{max-width: 38%;min-width: 38%;min-height: 350px;}
+.subjects .optionset{display:none;}
+
+@media only screen and (max-width: 1250px) {
+    .content-sidebar .content-sidebar-wrap, .full-width-content .content-sidebar-wrap, .sidebar-content .content-sidebar-wrap {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1223px) {
+    .subjectarea-optionset{min-width: 40%;}
+}
+@media screen and (max-width: 1100px) {
+    .subjectarea-optionset{min-width: 60%;}
+}
+@media screen and (max-width: 700px) {
+    .subjectarea-optionset{min-width: 50%;}
+    .optionset.two-col ul {
+        -webkit-column-count: 1 !important;
+        -moz-column-count: 1 !important;
+        column-count: 1 !important;
+    }
+    .search-text{display:none;}
+    .search-input .search-button-icon {margin-right: 0px;}
+    .search-input .search-field{width: 90%;}
+    .search-input .search-button{width: 10%;}
+    .search-bar .search-options .search-dropdown{height: 20px !important; max-height: 20px !important;}
+}
+@media screen and (max-width: 541px)  {
+    .subjectarea-optionset{display:none;}
+    .subject-optionset li.hover{background: inherit; -moz-use-text-color: inherit;border-style: none;margin: 0px;}
+    .subjects .optionset{display:block;min-width: 170px !important;width: 100% !important;}
+    .search-input .search-field{width: 85%;}
+    .search-input .search-button{width: 15%;}
+}
+@media screen and (max-width: 350px)  {
+    .search-input .search-field{width: 80%;}
+    .search-input .search-button{width: 20%;}
+}
+@media screen and (max-width: 270px)  {
+    .search-input .search-field{width: 75%;}
+    .search-input .search-button{width: 25%;}
+}
+@media screen and (max-width: 430px)  {
+    .advance-options-text{display:none;}
+}
+
+#collection-tabs .less-collection-info{display: none;}
+.collection-more-info{display: none;}
+.collection-share{display: none;}
+.collection-actions div:last-child {border-right: none;}
+
+.resources ul{margin-left: 20px;padding: 10px;}
+.resources li{list-style-type: disc;}
+.resources .collection-resources ul {-webkit-column-count: 2;-moz-column-count: 2;column-count:2;}
+.resources .collection-subjects ul {-webkit-column-count: 2;-moz-column-count: 2;column-count:2;}
+.resources .collection-grades ul {-webkit-column-count: 3;-moz-column-count: 3;column-count:3;}
+.resources .collection-type ul {-webkit-column-count: 3;-moz-column-count: 3;column-count:3;}
+.collection-more-info-content div{border-top: solid 1px #BBB;padding-top: 5px;}
+.bottomsheet{width:100%;min-height:80px;background:#222222;bottom: 0px;position:fixed;opacity: 0.9;left:0px;max-height: 500px;}
+.bottomsheet .close{position:absolute;top: 5px;right: 5px;width: 20px;height: 20px;cursor:pointer;z-index:500;}
+.bottomsheet .close {width: 20px;height: 20px;position: absolute;right: 4px;top: 4px;overflow: hidden;text-indent: 100%;cursor: pointer;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+.bottomsheet .close:hover, .bottomsheet .close:focus {outline: none;}
+.bottomsheet .close::before,.bottomsheet .close::after {content: '';position: absolute;width: 3px;height: 60%;top: 50%;left: 50%;background: #1f8b4d;}
+.bottomsheet .close:hover::before, .bottomsheet .close:hover::after {background: #fff;}
+.bottomsheet .close::before {-webkit-transform: translate(-50%,-50%) rotate(45deg);transform: translate(-50%,-50%) rotate(45deg);}
+.bottomsheet .close::after {-webkit-transform: translate(-50%,-50%) rotate(-45deg);transform: translate(-50%,-50%) rotate(-45deg);}
+
+.optionset li { font-size: 0.75em !important; }
+.search-loader{margin: 0 auto !important;}

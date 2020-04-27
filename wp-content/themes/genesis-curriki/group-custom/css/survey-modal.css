@@ -1,0 +1,247 @@
+.popup-heading-wrapper
+{
+    padding: 10px;
+}
+body.user-dashboard .modal-survey h4.sidebar-title
+{
+    margin-top: 10px !important;
+}
+body.user-dashboard .modal-survey p
+{
+    font-size: 14px;
+}
+body.user-dashboard .modal-survey 
+{
+    width: auto !important;
+    background: none repeat scroll 0 0 #ffffff !important;
+    border-radius: 10px !important;
+    border: 3px solid #d1d1d1 !important;
+    padding: 0px !important;
+}
+.donation-heading
+{
+    /*color: #7fc41a !important;*/
+    color: #53830c !important;
+}
+    
+.donation-heading
+{
+    /*color: #7fc41a !important;*/
+    color: #53830c !important;
+}  
+
+#survey-popup .edit-name-social
+{
+    border: 0px solid red !important;
+}
+
+#survey-popup
+{    
+    z-index: 6 !important;
+}
+
+#survey-popup .sidebar-title 
+{
+    color: #124c72 !important;
+    font-size: 1em !important;
+    text-align: center !important;
+    font-weight: bold !important;
+}
+
+#survey-popup .edit-profile-image img
+{
+    /*float: left;
+    margin-right: 15px !important;*/
+    /*margin-left: 80px;    */
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+#survey-popup .edit-profile-image
+{    
+    float: none !important;
+    text-align: center;
+    /*height: 130px !important;*/
+}
+.lable-asterisk
+{
+    color: #d8000c !important;
+    font-size: 17px;
+}
+.side-label
+{
+    border: 0px solid;
+    float: left;
+    font-size: 16px;
+    /*font-weight: bold;*/
+    width: auto;
+    float: left;
+    /*margin-left: 57px;*/
+}
+.name-modal
+{
+    color: #106f8e;
+    display: block;
+    font-size: 1.25em;
+    font-weight: 500;
+    text-align: center;
+}
+.saving-label
+{
+    color: #99c736;
+    /*display: block;*/
+    font-size: 1.25em;
+    font-weight: 500;
+    text-align: center;
+    display: none;
+}
+#survey-popup .modal-survey
+{    
+    /*height: 400px !important;*/
+}
+#my_photo
+{
+    /*margin-top: 38px !important;
+    float: left !important;*/
+}
+
+.error-bar-para
+{
+    background-color: #ffbaba;
+    border: 1px solid #ff3333 !important;
+    color: #d8000c;
+    font-size: 12px !important;
+    padding: 4px !important;
+}
+
+.error-bar {
+    width: 72% !important;
+    margin: 0 auto;
+}
+
+.error-field
+{
+    border: 1px solid red;
+}
+.edit-profile-row
+{
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    width: 62%;
+}
+.hidden
+{
+    display: none !important;
+}
+.modal button
+{
+    font-weight: bold !important;
+}
+.subject-areas-ul-survey li:hover
+{
+    cursor: pointer;
+}
+.subject-areas-ul-survey
+{
+    float: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 280px !important;
+    overflow-x: hidden !important;
+    min-height: 150px !important;
+    max-height: 150px !important;
+}
+
+.subjects-ul
+{
+    margin-left: 20px !important;
+}
+
+.education-level-ul-survey li:hover
+{
+    cursor: pointer;
+}
+.education-level-ul-survey
+{
+    float: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 280px !important;
+    overflow-x: hidden !important;
+    min-height: 150px !important;
+    max-height: 150px !important;
+}
+.modal-title-format
+{
+    margin-top: 10px !important;
+    font-family: "proxima-nova",sans-serif !important;
+    color: #124c72 !important;
+    font-size: 1.25em !important;
+    text-align: center !important;
+    font-weight: bold !important;
+}
+#survey-popup div.close
+{
+    right: -25px !important;
+}
+
+
+.center-para-survey 
+{
+    text-align: center;
+}
+.heading-para-survey
+{
+    color: #393938;
+    font-family: "Museo",serif;
+    font-size: 1.45em !important;
+    font-weight: 300;
+    line-height: 1.96em;
+}
+
+.dm-donate-btn-wrapper-survey
+{
+    width: 100%;
+    text-align: center;
+}
+
+.hrt-line-left-survey
+{
+    float: left;
+    margin-top: 16px;
+}
+.hrt-line-right-survey
+{
+    float: left; 
+}
+.hrt-para-survey
+{
+    border: 0px solid red;
+    height: 55px;
+    display: inline-block;
+    margin: 0px !important;
+}
+.hrt-para-wrapper-survey
+{
+    border: 0px solid blue; 
+    width: 100%; 
+    text-align: center;
+    margin-top: 16px;
+}
+
+body #survey-popup .modal-dn-body p
+{
+    font-size: 14px;
+}
+body #survey-popup .modal-dn-body 
+{
+    width: 600px !important;
+    background: none repeat scroll 0 0 #ffffff !important;
+    border-radius: 8px !important;
+    border: 3px solid #d1d1d1 !important;
+    padding: 10px !important;
+}
+#survey-popup .donation-heading
+{
+    /*color: #7fc41a !important;*/
+    color: #53830c !important;
+}

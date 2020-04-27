@@ -1,0 +1,151 @@
+/*============================ SOCIAL THEME 2 ============================================*/
+.premio-facebook {
+	/*General*/
+	display: block; 
+	text-decoration: none;
+	
+	/*Text*/
+	font-family: 'SOCIALSHARE';text-align: center;
+	font-size:35px;
+	line-height:1.2;
+	text-indent: 10px;
+	font-weight:regular;
+	color: white;
+	text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+	-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#40ffffff,Positive=true)";zoom:1;
+	filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#40ffffff,Positive=true);
+	
+	/*Background*/
+	width:155px;
+	width:44px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #4f78b4;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	background-image: -webkit-linear-gradient(bottom, #4974b0, #6e90c0);
+	background-image: -moz-linear-gradient(bottom, #4974b0, #6e90c0);
+	background-image: -o-linear-gradient(bottom, #4974b0, #6e90c0);
+	background-image: linear-gradient(to top, #4974b0, #6e90c0);
+}
+
+.premio-facebook:after {
+	content: "A";
+}
+
+.premio-twitter {
+	/*General*/
+	display: block; 
+	text-decoration: none;
+	
+	/*Text*/
+	font-family: 'SOCIALSHARE';
+	text-align: center;
+	font-size:33px;
+	line-height:1.3;
+	text-indent: 2px;
+	color: white;
+	text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+	-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#40ffffff,Positive=true)";zoom:1;
+	filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#40ffffff,Positive=true);
+	
+	/*Background*/
+	width: 44px;
+	height: 44px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #4e9edc;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	background-image: -webkit-linear-gradient(bottom, #4e9edc, #5daae6);
+	background-image: -moz-linear-gradient(bottom, #4e9edc, #5daae6);
+	background-image: -o-linear-gradient(bottom, #4e9edc, #5daae6);
+	background-image: linear-gradient(to top, #4e9edc, #5daae6);
+}
+
+.premio-twitter:after {
+	content: "B";
+}
+
+.premio-google {
+	/*General*/
+	display: block; 
+	text-decoration: none;
+	
+	/*Text*/
+	font-family: 'SOCIALSHARE';
+	text-align: center;
+	font-size: 34px;
+	line-height:1.2;
+	text-indent: 2px;
+	color: white;
+	text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+	-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#40ffffff,Positive=true)";zoom:1;
+	filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#40ffffff,Positive=true);
+	
+	/*Background*/
+	width: 44px;
+	height: 44px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #da4935;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	background-image: -webkit-linear-gradient(bottom, #da4935, #e15946);
+	background-image: -moz-linear-gradient(bottom, #da4935, #e15946);
+	background-image: -o-linear-gradient(bottom, #da4935, #e15946);
+	background-image: linear-gradient(to top, #da4935, #e15946);
+}
+
+.premio-google:after {
+	content: "C";
+}
+
+.premio-linkedin {
+	/*General*/
+	display: block; 
+	text-decoration: none;
+	
+	/*Text*/
+	font-family: 'SOCIALSHARE';
+	text-align: center;
+	font-size:30px;
+	line-height:1.4;
+	color: white;
+	text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+	-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#40ffffff,Positive=true)";zoom:1;
+	filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#40ffffff,Positive=true);
+	
+	/*Background*/
+	width: 44px;
+	height: 44px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #005a87;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	background-image: -webkit-linear-gradient(bottom, #005a87, #066696);
+	background-image: -moz-linear-gradient(bottom, #005a87, #066696);
+	background-image: -o-linear-gradient(bottom, #005a87, #066696);
+	background-image: linear-gradient(to top, #005a87, #066696);
+}
+
+.premio-linkedin:after {
+	content: "F";
+}
+
+#facebookskin2, #twitterskin2, #linkedinskin2, #g-plusskin2, #pinterestskin2{
+	width: 85px;
+}
+#includedskin2 .premio-facebook, #includedskin2 .premio-twitter, #includedskin2 .premio-linkedin, #includedskin2 .premio-google, #includedskin2 .premio-pinterest{
+	width: 85px;
+}
+/*========================================SOCIAL THEME 2 END=========================================*/

@@ -1,0 +1,94 @@
+.toc-spacer
+{
+    height: 6px;
+}
+.toc-collection-folder:hover
+{
+    cursor: pointer;
+}
+.toc-hide
+{
+    display: none;
+}
+.toc-body .fa-folder,.fa-folder-open
+{
+    width: 12px;
+}
+.toc-body li.toc-file
+{
+    font-size: 0.75em;
+}
+
+.qtipCustomClass{
+    border-color: #0E9236 !important;background-color: #99c736 !important;}
+.qtipCustomClass .qtip-content{
+    font-size: 12px !important;color: #FFF !important;
+}
+.tooltip-rating:hover{
+    cursor: help !important;
+}
+.rating-badge:hover{
+    cursor: help !important;
+}
+
+.curriki-rating-title-text{
+    padding: 5px !important;
+}
+
+.resource-content-content .curriki-rating-title-text
+{
+    padding: 0px !important;
+    font-size: 11px  !important;
+}
+
+.button-save-disable
+{
+    background: #bcbec0 none repeat scroll 0 0 !important;
+}
+
+.resource-title-heading
+{
+    font-family: "Proxima Nova",sans-serif !important;
+}
+
+.asset-display-download a.icon-link
+{
+    font-size: 17px !important;
+    margin-top: 4px !important;    
+}
+
+.my-library-folders ul.fancytree-container
+{
+    overflow: initial !important;
+}
+
+.scrollbar-wrapper
+{
+    overflow: scroll;
+    border: 0px solid red;
+    height: 286px;
+}
+
+.my-library-folders
+{
+    padding: 6px !important;
+}
+
+.take-lesson-oer-content {    
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1em;
+    border: 2px solid #7DA941;
+    background-color: #7DA941;
+    padding: 3px;
+}
+
+.lti-progress-container{
+    margin-bottom: 5px;
+}
+
+.graded-progress-lable{    
+    color: #124c72;
+    font-weight: 500;
+    font-size: 1em;
+}

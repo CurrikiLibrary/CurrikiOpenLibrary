@@ -1,0 +1,19 @@
+{
+    "name": "curriki/wp-lti",
+    "description": "LTI Platform (Tool Consumer)",
+    "authors": [
+        {
+            "name": "Leo",
+            "email": "lcunha@curriki.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"CurrikiLti\\": "src/"}
+    },
+    "require": {
+        "doctrine/orm": "^2.6",
+        "php-di/php-di": "^6.0"
+    },
+    "require-dev": {
+    }
+}

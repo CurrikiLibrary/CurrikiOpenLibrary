@@ -1,0 +1,16 @@
+{
+    "name": "curriki",
+    "description": "Curriki Application",
+    "authors": [
+        {
+            "name": "Waqar Muneer",
+            "email": "waqarmuneer@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {"CurrikiSite\\": "src/"}
+    }
+}

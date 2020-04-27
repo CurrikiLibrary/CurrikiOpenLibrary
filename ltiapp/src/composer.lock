@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "20cb10d4f1ca282d4140c52d97ab0c38",
+    "content-hash": "ec49286c7a0eb8443aa745cacf38814d",
+    "packages": [
+        {
+            "name": "imsglobal/lti",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IMSGlobal/LTI-Tool-Provider-Library-PHP.git",
+                "reference": "c397e07066cca433114b6b82cbcdfbe7ddcca667"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IMSGlobal/LTI-Tool-Provider-Library-PHP/zipball/c397e07066cca433114b6b82cbcdfbe7ddcca667",
+                "reference": "c397e07066cca433114b6b82cbcdfbe7ddcca667",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "IMSGlobal\\LTI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Stephen Vickers",
+                    "email": "svickers@imsglobal.org"
+                }
+            ],
+            "description": "LTI Tool Provider Library",
+            "homepage": "https://www.imsglobal.org/lti",
+            "keywords": [
+                "LTI"
+            ],
+            "time": "2016-07-19 20:24:27"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

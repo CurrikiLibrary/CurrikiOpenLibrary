@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 20, 2015, 3:52:31 PM
+    Author     : muhammadsajid
+*/
+
+
+/* Added By Sajid*/
+.top-search-bar-dropdown{
+    height: 30px;
+    margin: -8px 0 0 -5px !important;
+    border-radius: 5px;
+    background: #f1f2f2 url("images/downarrow.png") no-repeat left;
+    color: #d6d6d6;
+    font-family: sans-serif;
+}
+.search-modal .top-search-bar-dropdown{
+    border-radius: 8px !important;
+    height: 40px !important;
+    margin: -14px 0 0 !important;
+    color: #d6d6d6;
+    font-family: sans-serif;
+}
+.clear{
+    clear:both;
+}
+.widget-title.widgettitle {
+    color: #106f8e;
+}
+.entry-title > a {
+    color: #575757;
+    text-decoration: none;
+}
+.subjectareas_plus:before {
+    content: "+";
+}
+.subjectareas_minus:before {
+    content: "-";
+}
+
+.contactus-sidebar {
+    background: none repeat scroll 0 0 #BCBEC0;
+    display: block;
+    float: left;
+    margin: 110px 0 0;
+    padding: 10px;
+    position: relative;
+    width: 275px;
+}
+
+.contactus-sidebar .textwidget > h3 {
+    font-size: 1em;
+}
+.contactus {
+    float: left;
+    width: 970px;
+}
+.dialog_result_div{
+    padding: 10px;
+    background: none repeat scroll 0 0;
+}
+.dialog_result {
+    background: none repeat scroll 0 0;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium{
+    margin: 0;
+}
+.gform_wrapper .top_label .gfield_label{
+    line-height: 0;
+    margin: 0;
+}
+.cursor-hand{ cursor: move; }
+
+.curriki-rating .rating-badge-nr {
+    background: none repeat scroll 0 0 #031770;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 10px !important;
+    height: 24px;
+    line-height: 1 !important;
+    padding: 8px 0 0 0;
+    text-align: center;
+    width: 24px;
+}
+.aticon-more{ display: none !important; }
+.aticon-settings{ display: none !important; }
+#atic_more{ display: none !important; }
+#atic_settings{ display: none !important; }
+.draggable{cursor: -moz-grab;}
+.bbp-user-page .wrap .container_12 #activity #whats-new-form{ margin-left: 0; }
+.bbp-user-page #activity-stream .activity-item .activity-meta { margin: 50px 0 10px 3px; }
+.bbp-user-page .container_12 .grid_2{ width: 20%; }
+.bbp-user-page .container_12 .grid_10{ width: 75%; }
+
+.page-template-page-user-dashboard .group-activity-card{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#at_auth, #atic_pinterest_share, #atic_print{display: none !important;}
+#post-mention{display: none;}
+
+
+#newsletterform > div {
+    color: red;
+    float: left;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 300px;
+}
+.more-from-member{
+    font-size: 0.8em !important;
+}
+.signup-oauth > a {
+    border-radius: 0 !important;
+    float: left;
+    margin: -173px 0 0 89px;
+    position: absolute;
+    z-index: 222;
+}
+.signup-oauth img{
+    width: 195px !important;
+    border-radius: 0 !important;
+}
+.plugin .footer {
+    position: unset !important;
+}
+.blog_search{
+    border-radius: 10px 0 0 10px;
+    height: 41px;
+}
+.blog_search_button{
+    border-radius: 0 10px 10px 0 !important;
+    height: 42px;
+    width: 50px !important;
+}
+.rating .fa{
+    cursor: pointer;
+}
+
+.showhide_subjectareas
+{
+    cursor: pointer !important;
+}
+.showhide_subjectareas span
+{
+    cursor: pointer !important;
+    font-size: 18px !important;
+    font-weight: bold !important
+}
+.settings-para
+{
+    margin-top: 15px !important;
+}

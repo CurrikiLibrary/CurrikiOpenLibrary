@@ -1,0 +1,4 @@
+ul.item-list li {
+	width: auto;
+	display: table;
+}

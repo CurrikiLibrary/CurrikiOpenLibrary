@@ -1,0 +1,106 @@
+.tp-admin-wrapper table.admin-login 
+{
+  border: 2px !important;
+  margin: 0px auto !important;
+  width: 25% !important;
+}
+.tp-admin-wrapper table.items 
+{
+  border: 2px !important;
+  margin: 10px !important;
+  width: 98% !important;
+}
+.tp-admin-wrapper tr.notvisible {
+  background-color: #c0c0c0 !important;
+}
+.tp-admin-wrapper tr.oddrow {
+  background-color: #ffff80 !important;
+}
+.tp-admin-wrapper tr.evenrow {
+  background-color: #80ffff !important;
+}
+.tp-admin-wrapper table.items thead tr th{
+  border: 1px solid #d1d1d1 !important;
+  padding: 10px !important;
+  background: #106f8e none repeat scroll 0 0 !important;
+  color: #fff !important;
+}
+.tp-admin-wrapper table.items tbody tr td{
+  border: 1px solid #d1d1d1;
+  padding: 10px !important;
+  background: #ffffff none repeat scroll 0 0 !important;
+}
+
+.tp-admin-wrapper table.admin-login thead tr th{
+  border: 1px solid #d1d1d1 !important;
+  padding: 10px !important;
+  background: #106f8e none repeat scroll 0 0 !important;
+  color: #fff !important;
+}
+
+.tp-admin-wrapper table.admin-login tbody tr td
+{
+  border-left: 1px solid #d1d1d1;
+  border-right: 1px solid #d1d1d1;
+  border-top: 0px solid #d1d1d1;
+  border-bottom: 0px solid #d1d1d1;
+  padding: 10px !important;
+  background: #ffffff none repeat scroll 0 0 !important;
+}
+
+.tp-admin-wrapper span.title {
+  font-weight: bold !important;
+}
+.tp-admin-wrapper span.title a {
+  text-decoration: none !important;
+}
+.tp-admin-wrapper .aligncentre {
+  text-align: center !important;
+}
+.tp-admin-wrapper .aligncentre a
+{
+  float: left !important;
+  margin-right: 8px !important;
+}
+.tp-admin-wrapper .alignright {
+  text-align: right !important;
+}
+.tp-admin-wrapper span.label {
+  display: inline-block !important;
+  width: 8em !important;
+  vertical-align: top !important;
+}
+.tp-admin-wrapper .box {
+  float: left !important;
+  border: 2px dashed #00f !important;
+  padding: 1em !important;
+  margin-left: 10px !important;
+  background-color: #ffffc0 !important;
+}
+
+.tp-admin-wrapper img {
+  border: 0 !important;
+}
+.tp-admin-wrapper .iconcolumn {
+  width: 40px !important;
+}
+.tp-admin-wrapper .required {
+  color: #f00 !important;
+}
+.tp-admin-wrapper .clear { 
+ clear: both !important;
+}
+.tp-admin-wrapper #delsel
+{
+    width: auto !important;
+    cursor: pointer !important;
+}
+.tp-admin-wrapper .box input,select,textarea
+{
+    width: auto !important;
+}
+.logout-link-lti
+{
+    font-weight: normal !important;
+    padding: 3px 13px !important;
+}

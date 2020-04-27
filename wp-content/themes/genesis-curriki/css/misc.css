@@ -1,0 +1,237 @@
+/*button, input[type="button"], input[type="reset"], */
+#content input[type="submit"] {
+	min-width: 180px;
+	width: auto;
+}
+
+ul.item-list li,
+div#item-body ul#members-list li, 
+div#item-body .internal-page #content ul li {
+	width: auto;
+	display: table;
+	float: left;
+	max-width: 220px;
+}
+#activity ul.item-list li,
+#activity div#item-body ul#members-list li, 
+#activity div#item-body .internal-page #content ul li {
+	max-width: auto;
+}
+#activity div#item-body li.group-activity-card {
+	max-width: 100%;
+}
+
+.group-activity-container {
+	padding-top: 0;
+}
+#activity #whats-new-form {
+	margin-bottom: 30px;
+}
+#activity #item-body {
+	margin-top: -10px;
+}
+ul.groups-list.item-list li {
+	
+}
+#member-list li {
+	margin: 10px;
+}
+
+div.members .pagination,
+div#activity .pagination,
+div#groups-dir-list .pagination,
+div#members-dir-list .pagination {
+	max-width: none;
+	display: inherit;
+}
+ul.item-list li img.avatar {
+	float: none;
+	margin: 0 -10px -4px -5px;
+	display: inline-block;
+}
+
+div#item-header ul span {
+	display: inline-block;
+}
+.internal-page #item-header ul li {
+	float: none;
+}
+
+#member-header.page-info ul {
+	margin: 0;
+	padding: 0;
+}
+#member-header.page-info ul li {
+	float: none;
+	margin: 0;
+}
+#member-info-accordion ul.info li ul li {
+	margin: 0;
+	display: block;
+}
+
+
+.internal-page #content .member-tabs.page-tabs {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.internal-page #content .member-tabs.page-tabs li {
+	display: inline-block;
+}
+.internal-page #whats-new-content, .directory #whats-new-content {
+	margin-left: 60px;
+}
+#whats-new-form {
+	margin-left: 110px;
+	margin-top: 30px;
+}
+.group-activity-time {
+	font-size: 12px;
+	line-height: 30px;
+}
+.internal-page #content .activity ul li .group-activity-body-content a {
+	padding: 0;
+	font-size: inherit;
+}
+
+#send-private-message {
+	display: none;
+}
+#item-header div.green-button,
+#item-header a.green-button {
+	border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    text-align: center;
+    text-transform: none;
+    width: 100%;
+    min-width: 100%;
+    display: table;
+}
+#item-buttons .friendship-button a {
+	padding: 0;
+	margin: 0;
+}
+#item-buttons div.generic-button {
+	margin-top: -10px;
+	width: 100%;
+}
+
+
+body.internal-page .site-inner,
+body.internal-page .site-inner > .wrap {
+	max-width: 100%;
+	padding: 0;
+}
+body.directory .site-inner {
+	padding-top: 100px;
+}
+body.directory .item-list-tabs {
+	margin-top: 30px;
+}
+.internal-page.group-template #content .padder, 
+.internal-page.group-template .widget .padder {
+	padding: 0;
+}
+.internal-page.group-template #content .member-tabs.page-tabs {
+	margin-top: 0;
+	
+}
+
+
+.card-button {
+	clear: both;
+}
+.card {
+	min-width: 220px;
+}
+.activity-sidebar .card,
+.page-sidebar .card {
+	min-width: auto;
+}
+.card p {
+	font-size: 13px;
+	line-height: 16px;
+}
+ul.item-list li div.action {
+	position: inherit;
+	right: inherit;
+	top: inherit;
+	text-align: center;
+	min-height: 45px;
+}
+
+
+#item-buttons div.generic-button {
+	padding: 0;
+}
+#item-buttons div.generic-button a {
+	margin: 0;
+}
+
+.internal-page #content .activity ul li.mini div.group-activity-member a {
+	margin-top: 0px;
+	display: block;
+	height: 30px;
+
+}
+.internal-page #content .activity ul li.mini img {
+	width: 30px;
+	height: 30px;
+}
+.internal-page #content .activity ul li.mini .page-activity {
+	float: left;
+	margin-left: 0;
+}
+.internal-page #content .activity ul li.mini .page-activity-member {
+	width: auto;
+}
+
+#groups-directory-form {
+	margin: 20px auto;
+}
+#groups-directory-form h3 a {
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: -5px;
+	display: inline-block;
+	min-width: auto;
+	width: auto;
+}
+#search-submit, #aw-whats-new-submit, #ac-form-submit, #groups_search_submit, 
+#forums_search_submit, #members_search_submit, #profile-group-edit-submit, #send {
+	padding: 5px 5px;
+}
+
+#create-group-form {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#create-group-form a.button {
+	width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,308 @@
+    @media (max-width: 1523px) and (min-width: 1400px) {        
+        .nav-primary
+        {
+            top: 127px !important;
+        }
+        .site-header
+        {
+            top: 67px !important;
+        }
+        .banner-img
+        {
+            margin-top: 12px !important;                            
+        }
+        .banner-para
+        {
+            font-size: 16px !important;
+        }
+    }
+    /*
+    @media (max-width: 13501px) and (min-width: 1400px) {        
+        .nav-primary
+        {
+            top: 127px !important;
+        }
+        .site-header
+        {
+            top: 67px !important;
+        }
+        .banner-img
+        {
+            margin-top: 12px !important;                            
+        }
+        a.lang_sel_sel
+        {
+            font-weight: bold !important;
+        }
+    }
+    */
+    @media (max-width: 1401px) and (min-width: 1370px) {       
+        .banner-para
+        {
+            font-size: 14px !important;
+        }
+        .nav-primary
+        {
+            top: 127px !important;
+        }
+        .site-header
+        {
+            top: 67px !important;
+        }
+        .banner-img
+        {
+            margin-top: 12px !important;                            
+        }
+        /*
+        a.lang_sel_sel
+        {
+            font-weight: bold !important;
+        }
+        */
+    }
+    
+    @media (max-width: 1369px) and (min-width: 1305px) {
+        .banner-para
+        {
+            font-size: 14px !important;
+        }
+        .nav-primary
+        {
+            top: 126px !important;
+        }
+        .site-header
+        {
+            top: 66px !important        
+        }
+        .banner-img
+        {
+            margin-top: 12px !important;                         
+        }
+        a.lang_sel_sel
+        {
+            /*font-weight: bold !important;*/
+        }
+    }
+    @media (max-width: 1306px) and (min-width: 1245px) {
+        .banner-para
+        {
+            font-size: 14px !important;
+        }
+        .nav-primary
+        {
+            top: 124px !important;
+        }
+        .site-header
+        {
+            top: 64px !important;            
+        }
+        .banner-img
+        {
+            margin-top: 12px !important;                         
+        }
+        /*a.lang_sel_sel
+        {
+            font-weight: bold !important;
+        }*/
+    }
+    
+    @media (max-width: 1246px) and (min-width: 1235px) {
+        .banner-para
+        {
+            font-size: 14px !important;
+        }
+        .nav-primary
+        {
+            top: 123px !important;
+        }
+        .site-header
+        {
+            top: 63px !important;            
+        }
+        .banner-img
+        {
+            margin-top: 12px !important;             
+        }
+        a.lang_sel_sel
+        {
+            /*font-weight: bold !important;*/
+        }
+    }
+    
+    @media (max-width: 1236px) and (min-width: 1135px) {
+        .banner-para
+        {
+            font-size: 14px !important;
+        }
+        .nav-primary
+        {
+            top: 120px !important;
+        }
+        .site-header
+        {
+            top: 63px !important;            
+        }
+        .banner-img
+        {
+            margin-top: 12px !important;             
+        }
+        a.lang_sel_sel
+        {
+            /*font-weight: bold !important;*/
+        }
+    }
+    @media (max-width: 1136px) and (min-width: 979px) {
+        .banner-para
+        {
+            font-size: 14px !important;
+        }
+        .nav-primary
+        {
+            top: 136px !important;
+        }
+        .site-header
+        {
+            top: 77px !important;            
+        }
+        .banner-img
+        {
+            margin-top: 12px !important;            
+        }
+    }
+    
+    @media (max-width: 980px) and (min-width: 848px) {
+                
+        .banner-para
+        {
+            font-size: 16px !important;        
+        }
+        .nav-primary
+        {
+            top: 135px !important;
+        }
+        .site-header
+        {
+            top: 76px !important                            
+        }        
+    }
+    
+    
+    @media (max-width: 847px) and (min-width: 779px) {
+        .banner-para
+        {
+            font-size: 16px !important;            
+        }
+        .nav-primary
+        {
+            top: 137px !important;
+        }
+        .site-header
+        {
+            top: 77px !important        
+        }
+        .banner-img
+        {
+            margin-top: 12px !important;            
+        }
+    }
+    
+    /*
+    @media (max-width: 780px) and (min-width: 651px) {
+        .banner-para
+        {
+            font-size: 12px !important;               
+        }
+        .nav-primary
+        {
+            top: 129px !important;
+        }
+        .site-header
+        {
+            top: 69px !important        
+        }
+        .banner-img
+        {
+            margin-top: 6px !important;                         
+        }        
+    }
+    @media (max-width: 652px) and (min-width: 507px) {
+        .banner-para
+        {
+            font-size: 10px !important;
+        }
+        .nav-primary
+        {
+            top: 121px !important;
+        }
+        .site-header
+        {
+            top: 61px !important        
+        }       
+        .banner-img
+        {
+            margin-top: 6px !important;              
+        }
+        .banner-para
+        {
+            line-height: 13px !important;
+        }
+    }   
+    @media (max-width: 506px) and (min-width: 393px) {
+        .banner-para
+        {
+            font-size: 10px !important;
+        }
+        .nav-primary
+        {
+            top: 130px !important;
+        }
+        .site-header
+        {
+            top: 70px !important        
+        }       
+        .banner-img
+        {
+            margin-top: 6px !important;                        
+        }
+        .banner-para
+        {
+            line-height: 14px !important;
+        }
+    }
+    */
+    @media (max-width: 780px) and (min-width: 100px) {
+        .site-banner
+        {
+            display: none !important;
+        }
+        .banner-para
+        {
+            font-size: 10px !important;
+        }
+        
+        .nav-primary
+        {
+            top: 55px !important;
+        }
+        .search-modal
+        {
+            margin-left: 33px !important;
+        }
+        
+        .site-header
+        {
+            top: 0px !important        
+        }       
+        .banner-img
+        {
+            margin-top: 6px !important;              
+        }
+        .banner-para
+        {
+            line-height: 14px !important;
+        }
+        .nav-header .genesis-nav-menu
+        {
+            font-size: 13px !important;
+        }
+    }    

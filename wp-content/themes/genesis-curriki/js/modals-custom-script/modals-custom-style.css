@@ -1,0 +1,42 @@
+.center-para 
+{
+    text-align: center;
+}
+.heading-para
+{
+    color: #393938;
+    font-family: "Museo",serif;
+    font-size: 1.45em !important;
+    font-weight: 300;
+    line-height: 1.96em;
+}
+
+.dm-donate-btn-wrapper
+{
+    width: 100%;
+    text-align: center;
+}
+
+.hrt-line-left
+{
+    float: left;
+    margin-top: 16px;
+}
+.hrt-line-right
+{
+    float: left; 
+}
+.hrt-para
+{
+    border: 0px solid red;
+    height: 55px;
+    display: inline-block;
+    margin: 0px !important;
+}
+.hrt-para-wrapper
+{
+    border: 0px solid blue; 
+    width: 100%; 
+    text-align: center;
+    margin-top: 16px;
+}

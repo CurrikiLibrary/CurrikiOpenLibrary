@@ -1,0 +1,5 @@
+"Context" class does not have "getId()" for Test
+Error:
+Fatal error: Call to undefined method IMSGlobal\LTI\ToolProvider\Context::getId() in /project/vendor/imsglobal/lti/src/ToolProvider/ToolProvider.php on line 987
+
+=============================

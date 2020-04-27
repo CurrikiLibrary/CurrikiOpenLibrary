@@ -1,0 +1,431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RSS Widget 2.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/better-rss-widget\n"
+"POT-Creation-Date: 2012-12-28 21:07:23+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Shane Lambert <shane@grandslambert.com>\n"
+"Language-Team: GrandSlambert <shane@grandslambert.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. #-#-#-#-#  better-rss-widget.pot (Better RSS Widget 2.6)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: better-rss-widget.php:51
+msgid "Better RSS Widget"
+msgstr "Bessere RSS Widget"
+
+#: better-rss-widget.php:53
+msgid "Replaces the built in RSS Widget adding more options. By GrandSlambert."
+msgstr "Ersetzt die in RSS Widget Hinzufügen weiterer Optionen gebaut. Durch GrandSlambert."
+
+#: better-rss-widget.php:127
+msgid " Settings"
+msgstr " Einstellungen"
+
+#: better-rss-widget.php:172
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: better-rss-widget.php:255
+msgid "Unknown Feed"
+msgstr "Unbekannt RSS"
+
+#: better-rss-widget.php:278
+msgid "Syndicate this content"
+msgstr "Syndicate diese Inhalte"
+
+#: better-rss-widget.php:314
+msgid "<strong>RSS Error</strong>: %s"
+msgstr "<strong> RSS-Fehler </ strong>: %s"
+
+#: better-rss-widget.php:351
+msgid "An error has occurred; the feed is probably down. Try again later."
+msgstr "Ein Fehler ist aufgetreten, die Futtermittel ist wahrscheinlich nach unten. Versuchen Sie es später erneut."
+
+#: better-rss-widget.php:370
+msgid "Untitled"
+msgstr "Untitled"
+
+#: includes/footer.php:19
+msgid "Credits"
+msgstr "Kredite"
+
+#: includes/footer.php:23
+msgid "Thank you for trying the %1$s plugin - I hope you find it useful. For the latest updates on this plugin, vist the %2$s. If you have problems with this plugin, please use our %3$s or check out the %4$s."
+msgstr "Vielen Dank für den Versuch der %1$s Plugin - ich hoffe, Sie finden es nützlich. Für die neuesten Updates zu diesem Plugin besuch %2$s. Wenn Sie Probleme haben mit diesem Plugin, benutzen Sie bitte unser %3$s oder Besuche der %4$s"
+
+#: includes/footer.php:25
+msgid "official site"
+msgstr "die offizielle Website"
+
+#: includes/footer.php:26
+msgid "Support Forum"
+msgstr "Support-Forum"
+
+#: includes/footer.php:27
+#: includes/sidebar-frame.php:33
+msgid "Documentation Page"
+msgstr "Dokumentations-Seite"
+
+#: includes/footer.php:33
+msgid "This plugin is &copy; %1$s by %2$s and is released under the %3$s"
+msgstr "Dieses Plugin ist &copy; %1$s von %2$s und ist unter den %3$s freigegeben"
+
+#: includes/footer.php:36
+msgid "GNU General Public License"
+msgstr "GNU General Public License"
+
+#: includes/footer.php:43
+msgid "Donate"
+msgstr "Spenden"
+
+#: includes/footer.php:46
+msgid "If you find this plugin useful, please consider supporting this and our other great %1$s."
+msgstr "Wenn Sie feststellen, dieses Plugin nützlich, beachten Sie bitte die Unterstützung dieser und unseren anderen großen %1$s."
+
+#: includes/footer.php:46
+msgid "plugins"
+msgstr "plugins"
+
+#: includes/footer.php:47
+msgid "Donate a few bucks!"
+msgstr "Spenden ein paar Euro!"
+
+#: includes/settings/administration.php:19
+#: includes/settings.php:29
+msgid "Administration"
+msgstr "Verwaltung"
+
+#: includes/settings/administration.php:25
+msgid "Reset to default"
+msgstr "Auf Standard zurücksetzen"
+
+#: includes/settings/administration.php:29
+msgid "Shortcode Search"
+msgstr "Kurze Code-Suche"
+
+#: includes/settings/administration.php:31
+msgid "Search for instances of the shortcode in"
+msgstr "Suche nach Instanzen der kurzen Code in"
+
+#: includes/settings/administration.php:33
+msgid "Search"
+msgstr "Suche"
+
+#: includes/settings/administration.php:39
+msgid "Back-up Options"
+msgstr "Sichern Sie Optionen"
+
+#: includes/settings/administration.php:43
+msgid "Restore Options"
+msgstr "Wiederherstellungsoptionen"
+
+#: includes/settings/cache.php:20
+msgid "Feed Cache Settings"
+msgstr "RSS Cache-Einstellungen"
+
+#: includes/settings/cache.php:25
+msgid "RSS Cache"
+msgstr "RSS-Cache"
+
+#: includes/settings/cache.php:27
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: includes/settings/cache.php:28
+msgid "Disabled"
+msgstr "Behinderte"
+
+#: includes/settings/cache.php:32
+#: includes/widget-form.php:143
+msgid "Cache Duration (seconds)<br /><small>ex. 3600 seconds = 60 minutes</small>"
+msgstr "Cache Dauer (Sekunden) <br /> <small> ex. 3600 Sekunden = 60 Minuten </ small>"
+
+#: includes/settings/cache.php:33
+#: includes/widget-form.php:146
+msgid "seconds"
+msgstr "Sekunden"
+
+#: includes/settings/display.php:19
+msgid "Default Display Settings"
+msgstr "Standard-Anzeigeeinstellungen"
+
+#: includes/settings/display.php:30
+msgid "Use Intro Text?"
+msgstr "Verwenden Intro Text?"
+
+#: includes/settings/display.php:36
+msgid "Default Link Target"
+msgstr "Standard Link-Ziel"
+
+#: includes/settings/display.php:40
+#: includes/widget-form.php:111
+msgid "New Window"
+msgstr "Neues Fenster"
+
+#: includes/settings/display.php:41
+#: includes/widget-form.php:112
+msgid "Top Window"
+msgstr "Top-Fenster"
+
+#: includes/settings/display.php:46
+msgid "Display items"
+msgstr "Elemente anzeigen"
+
+#: includes/settings/display.php:50
+msgid "Item Summary"
+msgstr "Artikel-Übersicht"
+
+#: includes/settings/display.php:55
+msgid "Item Author"
+msgstr "Artikel-Autor"
+
+#: includes/settings/display.php:64
+msgid "Item Date"
+msgstr "Artikel-Datum"
+
+#: includes/settings/display.php:70
+msgid "Item Time"
+msgstr "Artikel-Zeit"
+
+#: includes/settings/display.php:75
+#: includes/widget-form.php:102
+msgid "Add nofollow to links"
+msgstr "Schreibe nofollow Links"
+
+#: includes/settings/display.php:79
+msgid "Default Items to Display"
+msgstr "Standard Elemente zum Anzeigen"
+
+#: includes/settings/display.php:89
+msgid "Max Length of Title"
+msgstr "Max Länge der Titel"
+
+#: includes/settings/display.php:92
+msgid "( Enter \"0\" for no limit. )"
+msgstr "(Geben Sie \ \"0 \" für keine Beschränkung.)"
+
+#: includes/settings/display.php:96
+msgid "Length of Excerpt"
+msgstr "Länge der Auszug"
+
+#: includes/settings/display.php:100
+msgid "Add after the excerpt"
+msgstr "Schreibe nach dem Auszug"
+
+#: includes/settings/page.php:19
+msgid "Default Page Settings"
+msgstr "Standardseiteneinstellungen"
+
+#: includes/settings/page.php:25
+msgid "Decide which boxes will be checked automatically on the widgets form."
+msgstr "Entscheiden Sie, welche Felder werden automatisch auf die Widgets Form überprüft werden."
+
+#: includes/settings/page.php:28
+#: includes/widget-form.php:120
+msgid "Home Page"
+msgstr "Startseite"
+
+#: includes/settings/page.php:29
+#: includes/widget-form.php:121
+msgid "Front Page"
+msgstr "Titelseite"
+
+#: includes/settings/page.php:30
+#: includes/widget-form.php:126
+msgid "Archive Page"
+msgstr "Archiv Seite"
+
+#: includes/settings/page.php:31
+#: includes/widget-form.php:127
+msgid "Category Page"
+msgstr "Kategorie Seite"
+
+#: includes/settings/page.php:34
+#: includes/widget-form.php:128
+msgid "Tag Page"
+msgstr "Tag-Seite"
+
+#: includes/settings/page.php:35
+#: includes/widget-form.php:122
+msgid "Search Page"
+msgstr "Suchseite"
+
+#: includes/settings/page.php:36
+msgid "Post Page"
+msgstr "Post-Seite"
+
+#: includes/settings/page.php:37
+#: includes/widget-form.php:129
+msgid "Date Page"
+msgstr "Datum Seite"
+
+#: includes/settings.php:26
+msgid "Display Settings"
+msgstr "Display-Einstellungen"
+
+#: includes/settings.php:27
+msgid "Page Settings"
+msgstr "Seite Einstellungen"
+
+#: includes/settings.php:28
+#: includes/widget-form.php:134
+msgid "Cache Settings"
+msgstr "Cache-Einstellungen"
+
+#: includes/settings.php:38
+msgid "Plugin Settings"
+msgstr "Plugin-Einstellungen"
+
+#: includes/settings.php:41
+msgid "Better RSS Widget settings have been reset to defaults."
+msgstr "Bessere RSS Widget Einstellungen auf die Standardwerte zurückgesetzt."
+
+#: includes/settings.php:54
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: includes/sidebar-frame.php:19
+msgid "Plugin Information"
+msgstr "Plugin Informationen"
+
+#: includes/sidebar-frame.php:22
+msgid "This page sets the defaults for the plugin. Each of these settings can be overridden when you add an index to your page."
+msgstr "Diese Seite legt die Vorgaben für das Plugin. Jede dieser Einstellungen kann überschrieben werden, wenn Sie einen Index zu Ihrer Seite hinzufügen."
+
+#: includes/sidebar-frame.php:23
+msgid "You are using"
+msgstr "Sie verwenden"
+
+#: includes/sidebar-frame.php:28
+msgid "Usage"
+msgstr "Nutzung"
+
+#: includes/sidebar-frame.php:32
+msgid "See the %1$s for this plugin for more details on what each of these settings does."
+msgstr "Sehen Sie die %1$s für dieses Plugin, um weitere Informationen darüber, was jede dieser Einstellungen nicht."
+
+#: includes/sidebar-frame.php:39
+msgid "Recent Contributors"
+msgstr "Aktuelle Mitarbeiter"
+
+#: includes/sidebar-frame.php:42
+msgid "GrandSlambert would like to thank these wonderful contributors to this plugin!"
+msgstr "GrandSlambert möchte diese wundervollen Beiträgen zu diesem Plugin bedanken!"
+
+#: includes/widget-form.php:18
+msgid "Give the Feed a Title (optional):"
+msgstr "Geben Sie dem einen Titel (optional) Feed:"
+
+#: includes/widget-form.php:23
+msgid "Do not link"
+msgstr "Nicht Link"
+
+#: includes/widget-form.php:28
+msgid "Title URL (blank for RSS feed):"
+msgstr "Titel URL (leer für RSS-Feeds):"
+
+#: includes/widget-form.php:35
+msgid "Text to display above the links:"
+msgstr "Text, um die obigen Links anzuzeigen:"
+
+#: includes/widget-form.php:43
+msgid "Show"
+msgstr "Zeigen"
+
+#: includes/widget-form.php:51
+msgid "items from"
+msgstr "Begriffe aus"
+
+#: includes/widget-form.php:58
+msgid "Show feed icon before title"
+msgstr "Show Feed-Symbol vor Titel"
+
+#: includes/widget-form.php:60
+msgid "and link icon to"
+msgstr "und Link-Symbol zu"
+
+#: includes/widget-form.php:61
+msgid "RSS Url"
+msgstr "RSS-URL"
+
+#: includes/widget-form.php:62
+msgid "Title Url"
+msgstr "Titel URL"
+
+#: includes/widget-form.php:67
+msgid "Limit length of title to"
+msgstr "Begrenzte Länge des Titels an"
+
+#: includes/widget-form.php:72
+#: includes/widget-form.php:83
+msgid "characters."
+msgstr "Zeichen."
+
+#: includes/widget-form.php:78
+msgid "Display item summary limited to"
+msgstr "Angezeigt werden die Artikel Zusammenfassung beschränkt sich auf"
+
+#: includes/widget-form.php:86
+msgid "Additional Fields"
+msgstr "Zusätzliche Felder"
+
+#: includes/widget-form.php:90
+msgid "Author"
+msgstr "Autor"
+
+#: includes/widget-form.php:94
+msgid "Date"
+msgstr "Datum"
+
+#: includes/widget-form.php:98
+msgid "Time"
+msgstr "Zeit"
+
+#: includes/widget-form.php:107
+msgid "Link Target:"
+msgstr "Link-Ziel:"
+
+#: includes/widget-form.php:110
+msgid "None"
+msgstr "Keine"
+
+#: includes/widget-form.php:115
+msgid "Display this widget on"
+msgstr "Anzeige dieses Widget auf"
+
+#: includes/widget-form.php:116
+msgid "To display on Category or Tag pages you must also include the \"Archive\" page."
+msgstr "Zur Anzeige auf Kategorie oder Tag-Seiten müssen Sie auch die \"Archiv\"-Seite."
+
+#: includes/widget-form.php:123
+msgid "Single Post"
+msgstr "einzige Stelle"
+
+#: includes/widget-form.php:138
+msgid "Enable Cache?"
+msgstr "Ermöglichen Cache?"
+
+#. Plugin URI of the plugin/theme
+msgid "http://grandslambert.tk/plugins/better-rss-widget.html"
+msgstr "http://grandslambert.tk/plugins/better-rss-widget.html"
+
+#. Description of the plugin/theme
+msgid "Replacement for the built in RSS widget that adds an optional link target, shortcode_handler, and page conditionals."
+msgstr "Ersatz für die im RSS-Widget, das eine optionale Linkziel, kurze Codehandler und Seite conditionals fügt gebaut."
+
+#. Author of the plugin/theme
+msgid "grandslambert"
+msgstr "grandslambert"
+
+#. Author URI of the plugin/theme
+msgid "http://grandslambert.tk/"
+msgstr "http://grandslambert.tk/"
+

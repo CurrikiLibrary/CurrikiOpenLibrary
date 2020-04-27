@@ -1,0 +1,365 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Landing Pages\n"
+"POT-Creation-Date: 2017-06-21 21:34+0500\n"
+"PO-Revision-Date: 2017-06-21 21:47+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp_landing_pages.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: llp_create_template.php:12
+msgid "Customized"
+msgstr "Benutzerdefiniert"
+
+#: llp_create_template.php:14
+msgid "Content"
+msgstr "Inhalt"
+
+#: llp_get_templates.php:7
+msgid "Select Landing Page Template"
+msgstr "Wählen Sie die Landing Seitenvorlage"
+
+#: llp_get_templates.php:8
+msgid "Upgrade to Pro & Get 30 premium Landing page designs"
+msgstr "Upgrade auf Pro & erhalten 30 Premium-Landung Seitendesigns"
+
+#: llp_get_templates.php:25
+msgid "By "
+msgstr "Von "
+
+#: llp_get_templates.php:27
+msgid "Use this template"
+msgstr "Vorlage verwenden"
+
+#: llp_home.php:1 wp_landing_pages.php:118
+msgid "Home"
+msgstr "Startseite"
+
+#: llp_home.php:2
+msgid ""
+"Thank you for choosing WP Landing Pages plugin. If you have any support "
+"query or your feedback, please feel free to send an email to "
+msgstr ""
+"Vielen Dank für die Wahl der WP Landing Pages Plugin. Wenn Sie Support-"
+"Anfragen oder Anregungen haben, wenden Sie sich bitte per e-mail an "
+
+#: llp_home.php:4
+msgid "Quick Tutorial"
+msgstr "Quick Tutorial"
+
+#: llp_home.php:6
+msgid ""
+"To create new landing page, go to WPLP > Create Landing Page. Click Use this "
+"template button under any template you like"
+msgstr ""
+"Um neue Landing-Page zu erstellen, gehen Sie zu WPLP > Landing-Page zu "
+"erstellen. Klicken Sie auf diese Schaltfläche \"Vorlage\" unter jede "
+"Vorlage, die Sie mögen"
+
+#: llp_home.php:7
+msgid ""
+"Next page will open. On your left side, enter page name first and submit. "
+"This will save the page in your Wordpress site. You can then customize the "
+"page"
+msgstr ""
+"Nächste Seite wird geöffnet. Geben Sie auf der linken Seite den Seitennamen "
+"zuerst und einreichen. Dies wird die Seite in Ihre Wordpress-Website "
+"speichern. Anschließend können Sie die Seite anpassen"
+
+#: llp_home.php:8
+msgid ""
+"If you wish to edit an existing created template/page. Go to your WP-Admin > "
+"Landing Pages. Click on the Edit Template in Design View button under the "
+"page title on mouse hover."
+msgstr ""
+"Möchten Sie Bearbeiten einer vorhandenen Vorlage/Seite erstellt. Gehen Sie "
+"zu Ihrem WP-Admin > Landing Pages. Klicken Sie auf die Vorlage bearbeiten in "
+"Entwurfsansicht Knopf unter den Seitentitel auf Mausbewegung."
+
+#: llp_home.php:9
+msgid "Or you can also click on Edit in Design View under landing page title"
+msgstr ""
+"Oder Sie können auch klicken Sie auf Bearbeiten in der Entwurfsansicht unter "
+"Landung Seitentitel"
+
+#: llp_home.php:11
+msgid ""
+"Stay updated and get more customized feature updates directly to your inbox"
+msgstr ""
+"Bleiben Sie informiert und erhalten Sie weitere kundenspezifische Feature-"
+"Updates direkt in Ihren Posteingang"
+
+#: llp_home.php:22
+msgid ""
+"We promise, your email address will not be shared or spammed ever. Leave "
+"your email below"
+msgstr ""
+"Wir versprechen Ihnen, Ihre e-Mail-Adresse wird nicht geteilt oder Spam "
+"überhaupt. Lassen Sie Ihre e-Mail unter"
+
+#: llp_home.php:23
+msgid "email address"
+msgstr "e-mail Adresse"
+
+#: llp_home.php:26
+msgid "Join"
+msgstr "Beitreten"
+
+#: llp_home.php:29
+msgid "Quick Tutorial - Connect WP Landing Pages with MailChimp Auto Responder"
+msgstr ""
+"Kurzanleitung - WP Landing Pages mit MailChimp Autoresponder zu verbinden"
+
+#: llp_home.php:31
+msgid "Go pro - Upgrade to WP Landing Pages Pro"
+msgstr "Go pro - Upgrade auf WP Landing Pages Pro"
+
+#: llp_home.php:32
+msgid ""
+"WP Landing Pages Pro comes with up to 30 fresh and premium landing page "
+"designs. Pro version is also updated frequently with new premium landing "
+"page designs."
+msgstr ""
+"WP Landing Pages Pro wird mit bis zu 30 frischem und hochwertigen Zielseite "
+"Design. Auch Pro-Version ist mit neuem Premium Häufig Landung Seite Design "
+"aktualisiert."
+
+#: llp_tpl/customized_bar.php:23
+msgid "Create page"
+msgstr "Seite erstellen"
+
+#: llp_tpl/customized_bar.php:36
+msgid "View Live Page"
+msgstr "Live ansehen"
+
+#: llp_tpl/customized_bar.php:48
+msgid "Link"
+msgstr "Link"
+
+#: llp_tpl/customized_bar.php:52
+msgid "Optin Form"
+msgstr "OptIn Formular"
+
+#: llp_tpl/customized_bar.php:56
+msgid "link"
+msgstr "link"
+
+#: llp_tpl/customized_bar.php:60
+msgid "Open in new window"
+msgstr "In neuem Fenster öffnen"
+
+#: llp_tpl/customized_bar.php:70 llp_tpl/customized_bar.php:91
+msgid "Image URL"
+msgstr "Bild URL"
+
+#: llp_tpl/customized_bar.php:74 llp_tpl/customized_bar.php:95
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#: llp_tpl/customized_bar.php:78 llp_tpl/customized_bar.php:99
+msgid "Click here to upload image"
+msgstr "Hier klicken um neues Bild hochzuladen"
+
+#: llp_tpl/customized_bar.php:86
+msgid "Image Link"
+msgstr "Bildlink"
+
+#: llp_tpl/customized_bar.php:108
+msgid "Select Menu"
+msgstr "Menü wählen"
+
+#: llp_tpl/customized_bar.php:149
+msgid "Autoresponder Code"
+msgstr "Autoresponder Code"
+
+#: llp_tpl/customized_bar.php:152
+msgid ""
+"Copy your form code from your autoresponder provider and paste it in the box "
+"below. Ensure you are using the non-javascript code, and paste ALL HTML code "
+"your autoresponder company gives you into this box"
+msgstr ""
+"Kopieren Sie Code Ihres Formulars von Ihrem Autoresponder-Anbieter und fügen "
+"Sie ihn in das Feld unten. Stellen Sie sicher, dass Sie die non-Javascript-"
+"Code verwenden, und fügen Sie alle HTML-Code gibt Ihnen Ihre Autoresponder-"
+"Firma in dieses Feld"
+
+#: llp_tpl/customized_bar.php:169
+msgid "Field Label"
+msgstr "Feldbeschriftung"
+
+#: llp_tpl/customized_bar.php:189
+msgid "Form URL"
+msgstr "Formular URL"
+
+#: llp_tpl/customized_bar.php:196
+msgid "Hidden Fields"
+msgstr "Felder ausblenden"
+
+#: llp_tpl/customized_bar.php:203
+msgid "Submit Button Label"
+msgstr "Bezeichnung der \"Absenden\"-Taste"
+
+#: llp_tpl/customized_bar.php:222
+msgid "Preview"
+msgstr "Vorschau"
+
+#: llp_tpl/customized_bar.php:224
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: llp_tpl/customized_bar.php:226
+msgid "Save"
+msgstr "Speichern"
+
+#: wp_landing_pages.php:75
+msgid ""
+"The WP Landing Pages Pro plugin installed a templates table in the previous "
+"versions. That table is no longer required. Do you want me to go ahead and "
+"remove it?"
+msgstr ""
+"Die WP Landing Pages Vorlagen Pro Plugin eine Tabelle in den vorherigen "
+"Versionen installiert. Diese Tabelle ist nicht mehr erforderlich. Wollen Sie "
+"mich gehen und es entfernen?"
+
+#: wp_landing_pages.php:76
+msgid "Yes"
+msgstr "Ja"
+
+#: wp_landing_pages.php:88
+msgid "The table has been removed successfully"
+msgstr "Kunde wurde erfolgreich entfernt"
+
+#: wp_landing_pages.php:118
+msgid " Configuration"
+msgstr " Einstellungen"
+
+#: wp_landing_pages.php:119
+msgid "Templates"
+msgstr "Templates"
+
+#: wp_landing_pages.php:119
+msgid "Create Landing Page"
+msgstr "Erstellen Sie Landing Page"
+
+#: wp_landing_pages.php:264 wp_landing_pages.php:266
+msgid "Edit in Design View"
+msgstr "In der Entwurfsansicht bearbeiten"
+
+#: wp_landing_pages.php:276 wp_landing_pages.php:277 wp_landing_pages.php:287
+msgid "Landing Pages"
+msgstr "Startseiten"
+
+#: wp_landing_pages.php:278
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+#: wp_landing_pages.php:279
+msgid "Add New Landing Page"
+msgstr "Neue Landingseite anlegen"
+
+#: wp_landing_pages.php:280
+msgid "Edit Landing Page"
+msgstr "Bearbeiten Landing Page"
+
+#: wp_landing_pages.php:281
+msgid "New Landing Page"
+msgstr "Neue Landingseite anlegen"
+
+#: wp_landing_pages.php:282
+msgid "All Landing Pages"
+msgstr "Alle Landing Pages anzeigen"
+
+#: wp_landing_pages.php:283
+msgid "View Landing Page"
+msgstr "Ansicht Landing Page"
+
+#: wp_landing_pages.php:284
+msgid "Search Landing Pages"
+msgstr "Suche Landing Pages"
+
+#: wp_landing_pages.php:285
+msgid "No landing pages found"
+msgstr "Keine Landing-Pages gefunden"
+
+#: wp_landing_pages.php:286
+msgid "No landing pages found in Trash"
+msgstr "Kein Seite im Papierkorb gefunden"
+
+#: wp_landing_pages.php:379 wp_landing_pages.php:393
+msgid "Screenshot"
+msgstr "Bildschirmfoto speichern"
+
+#: wp_landing_pages.php:380
+msgid "Title"
+msgstr "Titel"
+
+#: wp_landing_pages.php:381
+msgid "Date"
+msgstr "Datum"
+
+#: wp_landing_pages.php:382 wp_landing_pages.php:392
+msgid "Total Visits"
+msgstr "Gesamt Besuche"
+
+#: wp_landing_pages.php:407
+msgid "Unable to get visits"
+msgstr "Nicht in der Lage zu bekommen Besuch"
+
+#: wp_landing_pages.php:539
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+#: wp_landing_pages.php:562
+msgid "Custom Code"
+msgstr "Benutzerdefinierter Code"
+
+#: wp_landing_pages.php:661
+msgid "Your information will *never* be shared or sold to 3rd party"
+msgstr ""
+"Ihre Informationen werden * nie * weitergegeben oder verkauft an 3rd-Party"
+
+#: wp_landing_pages.php:732
+msgid "Signup Now!"
+msgstr "Jetzt anmelden!"
+
+#: wp_landing_pages.php:771
+msgid "Click Here for Instant Access"
+msgstr "Klicken Sie hier für sofortigen Zugang"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Landing Pages"
+msgstr "WP Landing Pages"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.intensewp.com/wp-landing-pages/"
+msgstr "http://www.intensewp.com/wp-landing-pages/"
+
+#. Description of the plugin/theme
+msgid ""
+"Create Unlimited Beautiful Landing Pages in WordPress. Opt-in Forms, "
+"Customize Text, Upload photos, Embed videos."
+msgstr ""
+"Erstellen Sie unbegrenzt schöne Landingpages in WordPress. Entscheiden Sie "
+"sich in Formen, anpassen, Text, Fotos hochladen, Betten Sie Videos ein."
+
+#. Author of the plugin/theme
+msgid "Intense WP"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.intensewp.com/"
+msgstr "http://www.intensewp.com/"

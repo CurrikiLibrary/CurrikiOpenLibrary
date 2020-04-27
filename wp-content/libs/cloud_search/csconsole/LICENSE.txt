@@ -1,0 +1,10 @@
+AWS Customer Agreement
+
+The AWS Customer Agreement (located at http://aws.amazon.com/agreement/ )
+contains the terms and conditions that govern your access to and use of the
+Amazon CloudSearch Command Line Tools.
+
+Note: Other license terms may apply to certain, identified software files
+contained within or distributed with the accompanying software if such terms
+are included in the directory containing the accompanying software. Such other
+license terms will then apply in lieu of the terms of the software license above.

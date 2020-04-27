@@ -1,0 +1,77 @@
+body.user-dashboard .modal-dn-body p
+{
+    font-size: 14px;
+}
+body.user-dashboard .modal-dn-body 
+{
+    width: 600px !important;
+    background: none repeat scroll 0 0 #ffffff !important;
+    border-radius: 8px !important;
+    border: 3px solid #d1d1d1 !important;
+    padding: 10px !important;
+}
+.donation-heading
+{
+    /*color: #7fc41a !important;*/
+    color: #53830c !important;
+}  
+
+#complete-profile-popup .edit-name-social
+{
+    border: 0px solid red !important;
+}
+
+#complete-profile-popup
+{
+    left: 29% !important;
+}
+
+#complete-profile-popup .sidebar-title 
+{
+    color: #124c72 !important;
+    font-size: 1.2em !important;
+    text-align: center !important;
+    font-weight: bold !important;
+}
+
+#complete-profile-popup .edit-profile-image img
+{
+    float: left;
+    margin-right: 15px !important;
+    /*margin-left: 80px;    */
+}
+#complete-profile-popup .edit-profile-image
+{    
+    float: none !important;
+    height: 130px !important;
+/*    border: 1px solid red;*/
+    padding-left: 60px;
+}
+
+#complete-profile-popup .modal-dn-body
+{    
+    height: 360px !important;
+}
+#my_photo
+{
+    margin-top: 38px !important;
+    float: left !important;
+}
+
+.error-bar-para
+{
+    background-color: #ffbaba;
+    border: 1px solid #ff3333 !important;
+    color: #d8000c;
+    font-size: 12px !important;
+    padding: 4px !important;
+}
+
+.error-bar {
+    width: 100% !important;
+}
+
+.error-field
+{
+    border: 1px solid red;
+}

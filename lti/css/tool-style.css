@@ -1,0 +1,43 @@
+body
+{
+    font-size: 13px !important;
+}
+.tab.selected
+{
+    top: 9px !important;
+}
+.profile-info-top
+{
+    padding-top: 30px !important;
+}
+.role-label
+{
+    font-style: italic;
+    font-size: 12px !important;
+}
+.error-label
+{
+    color: #f00 !important;
+}
+
+.full-width-content .content
+{
+    padding: 20px 0 !important;
+}
+
+.card
+{
+    margin-bottom: 8px !important;
+}
+.collection-image
+{
+    width: 90px !important;
+}
+.collection-body-inner
+{
+    width: calc(100% - 90px) !important;
+}
+.search-bar
+{
+    margin-bottom: 12px !important;
+}

@@ -1,0 +1,12 @@
+{
+    "name": "curriki/googleanalytics",
+    "authors": [
+        {
+            "name": "Curriki",
+            "email": "webmaster@curriki.org"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0"
+    }
+}

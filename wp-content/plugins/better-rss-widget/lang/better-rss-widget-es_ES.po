@@ -1,0 +1,431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Better RSS Widget 2.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/better-rss-widget\n"
+"POT-Creation-Date: 2012-12-28 21:07:23+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Shane Lambert <shane@grandslambert.com>\n"
+"Language-Team: GrandSlambert <shane@grandslambert.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. #-#-#-#-#  better-rss-widget.pot (Better RSS Widget 2.6)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: better-rss-widget.php:51
+msgid "Better RSS Widget"
+msgstr "Mejor RSS Widget"
+
+#: better-rss-widget.php:53
+msgid "Replaces the built in RSS Widget adding more options. By GrandSlambert."
+msgstr "Sustituye el construido en el widget RSS agregando m&aacute¡s opciones. Por GrandSlambert."
+
+#: better-rss-widget.php:127
+msgid " Settings"
+msgstr " Configuraci&oacute;n"
+
+#: better-rss-widget.php:172
+msgid "Settings"
+msgstr " Configuraci&oacute;n"
+
+#: better-rss-widget.php:255
+msgid "Unknown Feed"
+msgstr "RSS Desconocido"
+
+#: better-rss-widget.php:278
+msgid "Syndicate this content"
+msgstr "Suscribirse a este contenido"
+
+#: better-rss-widget.php:314
+msgid "<strong>RSS Error</strong>: %s"
+msgstr "<strong> RSS de error </ strong>:% s"
+
+#: better-rss-widget.php:351
+msgid "An error has occurred; the feed is probably down. Try again later."
+msgstr "Ha ocurrido un error, la alimentaci&oacute;n es probablemente abajo. Int&eacute;ntelo de nuevo m&aacute;s tarde."
+
+#: better-rss-widget.php:370
+msgid "Untitled"
+msgstr "Sin t&aacute;­tulo"
+
+#: includes/footer.php:19
+msgid "Credits"
+msgstr "Cr&eacute;ditos"
+
+#: includes/footer.php:23
+msgid "Thank you for trying the %1$s plugin - I hope you find it useful. For the latest updates on this plugin, vist the %2$s. If you have problems with this plugin, please use our %3$s or check out the %4$s."
+msgstr "Gracias por probar el %1$s plugin - Espero que les sea &uacute;til. Para conocer las &uacute;ltimas noticias sobre este plugin, visita el %2$s. Si usted tiene problemas con este plugin, por favor, utilice nuestro %3$s o visita el %4$s."
+
+#: includes/footer.php:25
+msgid "official site"
+msgstr "sitio oficial"
+
+#: includes/footer.php:26
+msgid "Support Forum"
+msgstr "Foro de Soporte"
+
+#: includes/footer.php:27
+#: includes/sidebar-frame.php:33
+msgid "Documentation Page"
+msgstr "Documentaci&oacute;n p&aacute;gina"
+
+#: includes/footer.php:33
+msgid "This plugin is &copy; %1$s by %2$s and is released under the %3$s"
+msgstr "Este plugin es &copy; %1$s por %2$s, y se distribuye bajo la %3$s."
+
+#: includes/footer.php:36
+msgid "GNU General Public License"
+msgstr "GNU Licencia P&uacute;blica General"
+
+#: includes/footer.php:43
+msgid "Donate"
+msgstr "Dona"
+
+#: includes/footer.php:46
+msgid "If you find this plugin useful, please consider supporting this and our other great %1$s."
+msgstr "Si usted encuentra este &uacute;til plugin, por favor considere el apoyo a esta y otras grandes nuestros %1$s."
+
+#: includes/footer.php:46
+msgid "plugins"
+msgstr "plugins"
+
+#: includes/footer.php:47
+msgid "Donate a few bucks!"
+msgstr "Dona un poco de dinero!"
+
+#: includes/settings/administration.php:19
+#: includes/settings.php:29
+msgid "Administration"
+msgstr "Administraci&oacute;n"
+
+#: includes/settings/administration.php:25
+msgid "Reset to default"
+msgstr "Restablecimiento de los valores"
+
+#: includes/settings/administration.php:29
+msgid "Shortcode Search"
+msgstr "Deficiencia de la b&uacute;squeda"
+
+#: includes/settings/administration.php:31
+msgid "Search for instances of the shortcode in"
+msgstr "B&uacute;squeda de instancias de la abreviado en"
+
+#: includes/settings/administration.php:33
+msgid "Search"
+msgstr "B&uacute;squeda"
+
+#: includes/settings/administration.php:39
+msgid "Back-up Options"
+msgstr "Opciones de respaldo"
+
+#: includes/settings/administration.php:43
+msgid "Restore Options"
+msgstr "Opciones de restauraci&oacute;n"
+
+#: includes/settings/cache.php:20
+msgid "Feed Cache Settings"
+msgstr "RSS Opciones de cach&eacute;"
+
+#: includes/settings/cache.php:25
+msgid "RSS Cache"
+msgstr "RSS cach&eacute;"
+
+#: includes/settings/cache.php:27
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: includes/settings/cache.php:28
+msgid "Disabled"
+msgstr "Personas de movilidad reducida"
+
+#: includes/settings/cache.php:32
+#: includes/widget-form.php:143
+msgid "Cache Duration (seconds)<br /><small>ex. 3600 seconds = 60 minutes</small>"
+msgstr "Duraci&oacute;n en cach&eacute; (en segundos) <br /> <small> ex. 3600 segundos = 60 minutos </small>"
+
+#: includes/settings/cache.php:33
+#: includes/widget-form.php:146
+msgid "seconds"
+msgstr "segundo"
+
+#: includes/settings/display.php:19
+msgid "Default Display Settings"
+msgstr "Por defecto la configuraci&oacute;n de pantalla"
+
+#: includes/settings/display.php:30
+msgid "Use Intro Text?"
+msgstr "Usar texto intro?"
+
+#: includes/settings/display.php:36
+msgid "Default Link Target"
+msgstr "Destino predeterminado Enlace"
+
+#: includes/settings/display.php:40
+#: includes/widget-form.php:111
+msgid "New Window"
+msgstr "Nueva ventana"
+
+#: includes/settings/display.php:41
+#: includes/widget-form.php:112
+msgid "Top Window"
+msgstr "Ventana"
+
+#: includes/settings/display.php:46
+msgid "Display items"
+msgstr "Elementos de la pantalla"
+
+#: includes/settings/display.php:50
+msgid "Item Summary"
+msgstr "Resumen del art&aacute;­culo"
+
+#: includes/settings/display.php:55
+msgid "Item Author"
+msgstr "Autor del art&aacute;­culo"
+
+#: includes/settings/display.php:64
+msgid "Item Date"
+msgstr "Fecha del art&aacute;­culo"
+
+#: includes/settings/display.php:70
+msgid "Item Time"
+msgstr "Hora Tema"
+
+#: includes/settings/display.php:75
+#: includes/widget-form.php:102
+msgid "Add nofollow to links"
+msgstr "A&ntilde;adir enlaces \"nofollow\" a"
+
+#: includes/settings/display.php:79
+msgid "Default Items to Display"
+msgstr "Selecci&oacute;n por defecto para mostrar"
+
+#: includes/settings/display.php:89
+msgid "Max Length of Title"
+msgstr "Longitud máxima del título"
+
+#: includes/settings/display.php:92
+msgid "( Enter \"0\" for no limit. )"
+msgstr "(Escriba \ \"0 \" para ningún límite.)"
+
+#: includes/settings/display.php:96
+msgid "Length of Excerpt"
+msgstr "Largo del Extracto"
+
+#: includes/settings/display.php:100
+msgid "Add after the excerpt"
+msgstr "A&ntilde;adir despu&eacute;s el extracto"
+
+#: includes/settings/page.php:19
+msgid "Default Page Settings"
+msgstr "Configuraci&oacute;n predeterminada de la p&aacute;gina"
+
+#: includes/settings/page.php:25
+msgid "Decide which boxes will be checked automatically on the widgets form."
+msgstr "Decida qu&eacute; cajas se comprobar&aacute; de forma autom&aacute;tica en el formulario de widgets."
+
+#: includes/settings/page.php:28
+#: includes/widget-form.php:120
+msgid "Home Page"
+msgstr "Portada del sitio"
+
+#: includes/settings/page.php:29
+#: includes/widget-form.php:121
+msgid "Front Page"
+msgstr "P&aacute;gina principal"
+
+#: includes/settings/page.php:30
+#: includes/widget-form.php:126
+msgid "Archive Page"
+msgstr "Archivo de"
+
+#: includes/settings/page.php:31
+#: includes/widget-form.php:127
+msgid "Category Page"
+msgstr "Categor&iacute;­a p&aacute;gina"
+
+#: includes/settings/page.php:34
+#: includes/widget-form.php:128
+msgid "Tag Page"
+msgstr "Etiquetas p&aacute;gina"
+
+#: includes/settings/page.php:35
+#: includes/widget-form.php:122
+msgid "Search Page"
+msgstr "P&aacute;gina de b&uacute;squeda"
+
+#: includes/settings/page.php:36
+msgid "Post Page"
+msgstr "Post p&aacute;gina"
+
+#: includes/settings/page.php:37
+#: includes/widget-form.php:129
+msgid "Date Page"
+msgstr "Fecha p&aacute;gina"
+
+#: includes/settings.php:26
+msgid "Display Settings"
+msgstr "Configuraci&oacute;n de pantalla"
+
+#: includes/settings.php:27
+msgid "Page Settings"
+msgstr "Configuraci&oacute;n de p&aacute¡gina"
+
+#: includes/settings.php:28
+#: includes/widget-form.php:134
+msgid "Cache Settings"
+msgstr "Configuraci&oacute;n de la cach&eacute;"
+
+#: includes/settings.php:38
+msgid "Plugin Settings"
+msgstr "Plugin de Configuraci&oacute;n"
+
+#: includes/settings.php:41
+msgid "Better RSS Widget settings have been reset to defaults."
+msgstr "Mejor configuraci&oacute;n de RSS Widget se han restablecido a los valores predeterminados."
+
+#: includes/settings.php:54
+msgid "Save Settings"
+msgstr "Guardar configuraci&oacute;n"
+
+#: includes/sidebar-frame.php:19
+msgid "Plugin Information"
+msgstr "Plugin de Informaci&oacute;n"
+
+#: includes/sidebar-frame.php:22
+msgid "This page sets the defaults for the plugin. Each of these settings can be overridden when you add an index to your page."
+msgstr "Esta p&aacute;gina establece los valores predeterminados para el plugin. Cada una de estas opciones puede ser anulado cuando se agrega un art&iacute;culos de­ndice a la p&aacute;gina."
+
+#: includes/sidebar-frame.php:23
+msgid "You are using"
+msgstr "Usted est&aacute; utilizando"
+
+#: includes/sidebar-frame.php:28
+msgid "Usage"
+msgstr "Uso"
+
+#: includes/sidebar-frame.php:32
+msgid "See the %1$s for this plugin for more details on what each of these settings does."
+msgstr "V&eacute;ase el %1$s para este plugin para obtener m&aacute;s detalles sobre lo que cada una de estas opciones tiene."
+
+#: includes/sidebar-frame.php:39
+msgid "Recent Contributors"
+msgstr "Colaboradores recientes"
+
+#: includes/sidebar-frame.php:42
+msgid "GrandSlambert would like to thank these wonderful contributors to this plugin!"
+msgstr "GrandSlambert gustarart&iacute;culos de­a dar las gracias a estos contribuyentes maravillosa de este plugin!"
+
+#: includes/widget-form.php:18
+msgid "Give the Feed a Title (optional):"
+msgstr "Dar la alimentaci&oacute;n de un t&iacute;­tulo (opcional):"
+
+#: includes/widget-form.php:23
+msgid "Do not link"
+msgstr "No enlace"
+
+#: includes/widget-form.php:28
+msgid "Title URL (blank for RSS feed):"
+msgstr "T&iacute;­tulo URL (en blanco para la alimentaci&oacute;n de RSS):"
+
+#: includes/widget-form.php:35
+msgid "Text to display above the links:"
+msgstr "Texto a mostrar por encima de los enlaces:"
+
+#: includes/widget-form.php:43
+msgid "Show"
+msgstr "Mostrar"
+
+#: includes/widget-form.php:51
+msgid "items from"
+msgstr "art&iacute;culos de"
+
+#: includes/widget-form.php:58
+msgid "Show feed icon before title"
+msgstr "Mostrar icono de RSS antes del tart&iacute;culos de­tulo"
+
+#: includes/widget-form.php:60
+msgid "and link icon to"
+msgstr "Icono de vart&iacute;culos de­nculo y de"
+
+#: includes/widget-form.php:61
+msgid "RSS Url"
+msgstr "RSS Url"
+
+#: includes/widget-form.php:62
+msgid "Title Url"
+msgstr "Tart&iacute;culos de­tulo Url"
+
+#: includes/widget-form.php:67
+msgid "Limit length of title to"
+msgstr "Limite la longitud del título de"
+
+#: includes/widget-form.php:72
+#: includes/widget-form.php:83
+msgid "characters."
+msgstr "caracteres."
+
+#: includes/widget-form.php:78
+msgid "Display item summary limited to"
+msgstr "Mostrar tema resumen se limita a"
+
+#: includes/widget-form.php:86
+msgid "Additional Fields"
+msgstr "Campos adicionales"
+
+#: includes/widget-form.php:90
+msgid "Author"
+msgstr "Autor"
+
+#: includes/widget-form.php:94
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/widget-form.php:98
+msgid "Time"
+msgstr "Tiempo"
+
+#: includes/widget-form.php:107
+msgid "Link Target:"
+msgstr "Destino de vart&iacute;culos denculo:"
+
+#: includes/widget-form.php:110
+msgid "None"
+msgstr "Ninguno"
+
+#: includes/widget-form.php:115
+msgid "Display this widget on"
+msgstr "Muestra este widget en"
+
+#: includes/widget-form.php:116
+msgid "To display on Category or Tag pages you must also include the \"Archive\" page."
+msgstr "Para mostrar en las p&aacute;ginas categorart&iacute;culos de­a o etiqueta tambi&eacute;n debe incluir la  \"Archivo\" de la p&aacute;gina."
+
+#: includes/widget-form.php:123
+msgid "Single Post"
+msgstr "Mensaje Individual"
+
+#: includes/widget-form.php:138
+msgid "Enable Cache?"
+msgstr "Habilitar cach&eacute;?"
+
+#. Plugin URI of the plugin/theme
+msgid "http://grandslambert.tk/plugins/better-rss-widget.html"
+msgstr "http://grandslambert.tk/plugins/better-rss-widget.html"
+
+#. Description of the plugin/theme
+msgid "Replacement for the built in RSS widget that adds an optional link target, shortcode_handler, and page conditionals."
+msgstr "Reemplazo para los condicionales construido en widget RSS que agrega un destino de vart&iacute;culos de­nculo opcional, controlador de c&oacute;digo corto, y en la p&aacute;gina."
+
+#. Author of the plugin/theme
+msgid "grandslambert"
+msgstr "grandslambert"
+
+#. Author URI of the plugin/theme
+msgid "http://grandslambert.tk/"
+msgstr "http://grandslambert.tk/"
+
