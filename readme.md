@@ -72,7 +72,17 @@ This project contains implimentation of the Curriki library.
 	- Run below commands
 		- cd curriki-xapi-app/app/Curriki/curriki-lti/
 		- run composer install
+                - run cp /project-path/data/config.php /project-path/curriki-xapi-app/app/Curriki/curriki-lti
 	- Update credentials in curriki-xapi-app/app/Curriki/curriki-lti/config.php
+                - Update credentials in config.php
+
+		define('WP_LTI_APP_URL', 'XAPI_URL_HERE'); // http://your domain/curriki-xapi-app/public
+                define('WP_LTI_DB_DRIVER', 'pdo_mysql');
+                define('WP_LTI_DB_HOST', '127.0.0.1');
+                define('WP_LTI_DB_USER', 'DB_USER_NAME_HERE');
+                define('WP_LTI_DB_PASSWORD', 'DB_PASSOWRD_HERE');
+                define('WP_LTI_DB_NAME', 'DB_NAME_HERE');
+                define('WP_LTI_DB_TABLE_PREFIX', 'wcl_');
 
 - **Vhost Configuration**
     - Create and enable vhost.
