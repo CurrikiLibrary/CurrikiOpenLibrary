@@ -18,7 +18,9 @@ This project contains implimentation of the Curriki library.
 
 - **Database** **Configuration**
     - Import the open_curriki.sql.zip file provided in data folder
-    - Update the definer of all triggers with [db_user_name@host](mailto:db_user_name@host) //root@localhost
+    - Update the definer of all triggers with [db_user_name@host](mailto:db_user_name@host). For reference see the below link.
+        
+            https://stackoverflow.com/questions/18593746/how-to-bulk-change-mysql-triggers-definer
 
 - **Setup AWS**
 	- Configure AWS, CloudSearch, S3, Elastic Transcoder
