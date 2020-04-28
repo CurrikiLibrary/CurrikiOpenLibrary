@@ -60,15 +60,15 @@ define('STRIPE_WEBHOOK_SECRET', '');
 define('STRIPE_CURRENCY', 'usd');
 
 # Security Salts, Keys, Etc
-define('AUTH_KEY', '');
-define('SECURE_AUTH_KEY', '');
-define('LOGGED_IN_KEY', '');
-define('NONCE_KEY', '');
-define('AUTH_SALT', '');
-define('SECURE_AUTH_SALT', '');
-define('LOGGED_IN_SALT', '');
-define('NONCE_SALT', '');
-define('AES_KEY', '');
+define('AUTH_KEY',         'r7!$C.{ZWzvNw7as[hw]D,ceO3pL[?K;D<.NwB0v$4}.w51(p2n|1b4Q:1`:s+xu');
+define('SECURE_AUTH_KEY',  '3o5lnJLiLR=kahQp 13wqhA@GH|~V.[yV~v;IlxE9YyMu6M=tG]8JvN)BEc3GSM*');
+define('LOGGED_IN_KEY',    'U/3Bg`xPQ&OafT1g(9DXQ5VZVC(unYKrD(K48?KW[:+qCEflgI9iPe)EiRuG0xR]');
+define('NONCE_KEY',        'RD80<h:xfkJhi(cB?Dn3{gZ@0ynR=Ay%:!mOhuyQ:5qRgq?&cxO.-d X5$T@=l<i');
+define('AUTH_SALT',        'ZOn_$y)GLqYzjG6l-`EY4y@|[QI5)Rn@i5NtAe-a+PHf@|--TI5+IE~EI4{a%5Bj');
+define('SECURE_AUTH_SALT', '?{]Qd+y8z8&LSA|-=J5EuH+RXu.+u4tI,3*JDx)YS< R|}gOi*I6sSGc#y]aXHuw');
+define('LOGGED_IN_SALT',   '*}r<S3?bz#[_$y:BHM,@Jc2(pP1Ao}AG@z=N=u-NDLSi~3r7*gis],*j4//xVmD-');
+define('NONCE_SALT',       'T^nC7<_E_,]gWm3t+Ltg[nu6;m&GDB:?/7A*HFPX^b>OGEd%S#)+VcBSt+ZQ-ELC');
+define('AES_KEY',          'xDl=&y|F hF@&/5R[[z+0q4h(4 4/p|4z*P6:Kf0>p|F1@3W5>1(!Efb+]f5vP1H');
 
 /*### JWT Authentication for WP REST API START ###*/
 define('JWT_AUTH_SECRET_KEY', '');
