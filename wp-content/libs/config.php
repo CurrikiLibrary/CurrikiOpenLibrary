@@ -30,39 +30,18 @@ if ($_SERVER['HTTP_HOST'] == 'cg.curriki.org') {
   $vars['wp_contents'] = '/wp-content';
 }
 
-// $db = new db($db_host, $db_user, $db_pass, $db_name);
+$db = new db($db_host, $db_user, $db_pass, $db_name);
 
-// $result = $db->select("SELECT * from cur_options where option_name in ('resSourceVideos' ,'resResourceVideos', 'resResourcePosters',
-// 'resResourceSwfs','resResourceImgs','resResourceDocs','resResourceFiles' , 
-// 'resLinkImages','awsCDNUrl','awsTransCodePipeLine','awsBucket','resUploadFolder',
-// 'resMaxSWFSize','resMaxImageSize' , 'resMaxVideoSize', 'resMaxDocSize','resMaxFileSize',
-// 'resAllowedImg','resAllowedVideo','resAllowedDocs','siteurl','home','resFiles','awsWorkBucket','awsSearchDomain','awsSearchEndPoint')");
+$result = $db->select("SELECT * from cur_options where option_name in ('resSourceVideos' ,'resResourceVideos', 'resResourcePosters',
+'resResourceSwfs','resResourceImgs','resResourceDocs','resResourceFiles' , 
+'resLinkImages','awsCDNUrl','awsTransCodePipeLine','awsBucket','resUploadFolder',
+'resMaxSWFSize','resMaxImageSize' , 'resMaxVideoSize', 'resMaxDocSize','resMaxFileSize',
+'resAllowedImg','resAllowedVideo','resAllowedDocs','siteurl','home','resFiles','awsWorkBucket','awsSearchDomain','awsSearchEndPoint')");
 
 
-// foreach ($result as $r) {
-//   $vars[$r['option_name']] = $r['option_value'];
-// }
-
-$vars = [
-  'awsBucket'=>DBI_AWS_S3_BUCKET,
-  'awsCDNUrl'=>'https://' . DBI_AWS_S3_CDN_URL . '/',
-  'awsTransCodePipeLine'=>DBI_AWS_TRANSCODE_PIPELINE_ID,
-  'home'=>'http://localhost/curriki/',
-  'resAllowedDocs'=>'doc,docx,pdf,xls,xlsx,txt,csv,html,psd,sql,log,fla,xml,ade,adp,ppt,pptx',
-  'resAllowedImg'=>'jpg,jpeg,pjpeg,png,gif,bmp,tiff,tif',
-  'resAllowedVideo'=>'mov,mpeg,mp4,avi,mpg,wma,flv,wmv',
-  'resLinkImages'=>'linkimages/',
-  'resMaxFileSize'=>500000000,
-  'resMaxImageSize'=>5242880,
-  'resMaxVideoSize'=>500000000,
-  'resResourcePosters'=>'posters/',
-  'resResourceFiles'=>'resourcefiles/',
-  'resResourceImgs'=>'resourceimgs/',
-  'resSourceVideos'=>'sourcevideos/',
-  'resUploadFolder'=>'/uploads/currikicdn/',
-  'resResourceVideos'=>'videos/',
-  'siteurl'=>'http://localhost/curriki/',
-];
+foreach ($result as $r) {
+  $vars[$r['option_name']] = $r['option_value'];
+}
 
 $vars['base_url'] = ($_SERVER['SERVER_PORT'] == 443 ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $vars['wp_contents'];
 $vars['current_path'] = $_SERVER['DOCUMENT_ROOT'] . $vars['wp_contents']; // relative path from filemanager folder to upload files folder
