@@ -2057,6 +2057,45 @@ function deleteResourcesData($brokenLinkResourceIds)
 
     $brokenLinkResourceFileIdsString = implode(",", $brokenLinkResourcesFileIds);
 
+    $brokenLinkResourceQuestions = $wpdb->get_results(
+        "
+        SELECT questionid
+        FROM resourcequestions
+        WHERE
+            resourceid IN ($brokenLinkResourceIdsString)
+        "
+    );
+
+    $brokenLinkResourceQuestionIds = [];
+
+    foreach ($brokenLinkResourceQuestions as $brokenLinkResourceQuestion)
+    {
+        $brokenLinkResourceQuestionIds[] = $brokenLinkResourceQuestion->questionid;
+    }
+
+    $brokenLinkResourceQuestionIdsString = implode(",", $brokenLinkResourceQuestionIds);
+
+
+    if ($brokenLinkResourceQuestions) {
+        $brokenLinkResourceQuestionAnswers = $wpdb->get_results(
+            "
+            SELECT answerid
+            FROM resourcequestion_answers
+            WHERE
+                questionid IN ($brokenLinkResourceQuestionIdsString)
+            "
+        );
+
+        $brokenLinkResourceQuestionAnswerIds = [];
+
+        foreach ($brokenLinkResourceQuestionAnswers as $brokenLinkResourceQuestionAnswer)
+        {
+            $brokenLinkResourceQuestionAnswerIds[] = $brokenLinkResourceQuestionAnswer->answerid;
+        }
+
+        $brokenLinkResourceQuestionAnswerIdsString = implode(",", $brokenLinkResourceQuestionAnswerIds);
+    }
+
     // begin transaction
     $wpdb->query('START TRANSACTION');
 
@@ -2108,6 +2147,15 @@ function deleteResourcesData($brokenLinkResourceIds)
     if ($brokenLinkResourceFiles)
         $wpdb->query("DELETE FROM filedownloads WHERE fileid IN ($brokenLinkResourceFileIdsString)");
 
+    if ($brokenLinkResourceQuestions) {
+        if ($brokenLinkResourceQuestionAnswers)
+            $wpdb->query("DELETE FROM user_resourcequestions WHERE answerid IN ($brokenLinkResourceQuestionAnswerIdsString)");
+
+        $wpdb->query("DELETE FROM resourcequestion_answers WHERE questionid IN ($brokenLinkResourceQuestionIdsString)");
+    }
+
+    $wpdb->query("DELETE FROM resourcequestions WHERE resourceid IN ($brokenLinkResourceIdsString)");
+
     $wpdb->query("DELETE FROM resources WHERE resourceid IN ($brokenLinkResourceIdsString)");
 
     // commit transaction
@@ -2145,6 +2193,22 @@ function deleteUsersData($userIds)
         $userResourceIds[] = $userResource->resourceid;
     }
 
+    $userPartners = $wpdb->get_results(
+        "
+        SELECT partnerid
+        FROM partners
+        WHERE
+            contributorid IN ($userIdsString)
+        "
+    );
+
+    $userPartnerIds = [];
+
+    foreach ($userPartners as $userPartner)
+    {
+        $userPartnerIds[] = $userPartner->partnerid;
+    }
+
     // begin transaction
     $wpdb->query('START TRANSACTION');
 
@@ -2167,6 +2231,12 @@ function deleteUsersData($userIds)
     $wpdb->query("DELETE FROM filedownloads WHERE userid IN ($userIdsString)");
     $wpdb->query("DELETE FROM resourceviews WHERE userid IN ($userIdsString)");
     $wpdb->query("DELETE FROM resource_statements WHERE userid IN ($userIdsString)");
+    $wpdb->query("DELETE FROM emailoptions WHERE userid IN ($userIdsString)");
+
+    if ($userPartners)
+        $wpdb->query("DELETE FROM searchterms WHERE partnerid IN ($userPartnerIds)");
+
+    $wpdb->query("DELETE FROM partners WHERE contributorid IN ($userIdsString)");
     $wpdb->query("UPDATE resources SET lasteditorid = contributorid WHERE lasteditorid IN ($userIdsString)");
     $wpdb->query("DELETE FROM users WHERE userid IN ($userIdsString)");
 
