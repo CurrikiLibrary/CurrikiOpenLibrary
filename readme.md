@@ -23,7 +23,10 @@ This project contains implimentation of the Curriki library.
             https://stackoverflow.com/questions/18593746/how-to-bulk-change-mysql-triggers-definer
 
 - **Setup AWS**
-	- Configure AWS, CloudSearch, S3, Elastic Transcoder
+	- Configure [AWS](https://aws.amazon.com/), 
+    [CloudSearch](https://aws.amazon.com/cloudsearch/getting-started/), 
+    [S3](https://aws.amazon.com/s3/getting-started/?nc=sn&loc=5), 
+    [Elastic Transcoder](https://aws.amazon.com/elastictranscoder/getting-started/)
 	- Under DBI_AWS_S3_BUCKET, require following folders
 	- (avatars, blobs, community_pages, linkimages, miscellaneous, posters, resourcedocs, resourcefiles, resourceimgs, resourceswfs, uploads, videos)
 
