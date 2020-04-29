@@ -92,6 +92,10 @@ This project contains implimentation of the Curriki library.
     - Restart the server
     - Update the hosts file entry.
 
+- **Test Credentials**
+    - user=root
+    - pass=123456
+
 - **Plugins**
     - Advanced Custom Fields
     - Akismet Anti-Spam
