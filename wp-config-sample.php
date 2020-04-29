@@ -71,7 +71,7 @@ define('NONCE_SALT',       'T^nC7<_E_,]gWm3t+Ltg[nu6;m&GDB:?/7A*HFPX^b>OGEd%S#)+
 define('AES_KEY',          'xDl=&y|F hF@&/5R[[z+0q4h(4 4/p|4z*P6:Kf0>p|F1@3W5>1(!Efb+]f5vP1H');
 
 /*### JWT Authentication for WP REST API START ###*/
-define('JWT_AUTH_SECRET_KEY', '');
+define('JWT_AUTH_SECRET_KEY', 'xDl=&y|F hF@&/5R[[z+0q4h(4 4/p|4z*P6:Kf0>p|F1@3W5>1(!Efb+]f5vP1H');
 define('JWT_AUTH_CORS_ENABLE', true);
 /*### JWT Authentication for WP REST API END ###*/
 
